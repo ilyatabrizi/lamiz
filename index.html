@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lamiz Coffee</title>
+<meta name="description" content="Lamiz Coffee — 41 branches across Iran since 1388. Order ahead, check in, and collect beans in the Lamiz Club.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#F6F4F1" id="theme-color">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lamiz">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lamiz Coffee">
+<meta property="og:title" content="Lamiz Coffee">
+<meta property="og:description" content="41 branches across Iran since 1388. Order ahead, check in, collect beans.">
+<meta property="og:image" content="https://ilyatabrizi.github.io/lamiz/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/dmserif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/video/poster.webp" as="image" fetchpriority="high">
+<link rel="stylesheet" href="css/app.css?v=8051cffd1d">
+<script>
+  // Before anything paints: the theme the customer chose (or the phone's), whether this
+  // is a reload (the logo then shows only briefly), and the scroll offset an installed
+  // app would otherwise restore.
+  (function () {
+    var d = document.documentElement, pref = "system", warm = false;
+    try { pref = localStorage.getItem("lamiz.v1.theme") || "system"; } catch (e) {}
+    try { warm = sessionStorage.getItem("lamiz.v1.booted") === "1"; } catch (e) {}
+    var dark = pref === "dark" || (pref !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+    d.setAttribute("data-theme", pref);
+    d.setAttribute("data-mode", dark ? "dark" : "light");
+    var m = document.getElementById("theme-color");
+    if (m) m.setAttribute("content", dark ? "#0C0C0D" : "#F6F4F1");
+    d.className += " booting" + (warm ? " boot-warm" : "");
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    // if the app never arrives, do not keep the page behind the opening screen
+    setTimeout(function () {
+      var b = document.getElementById("boot");
+      if (b) { b.parentNode.removeChild(b); d.classList.remove("booting"); }
+    }, 9000);
+  })();
+</script>
+<!-- preload:start -->
+<link rel="modulepreload" href="js/boot.js">
+<link rel="modulepreload" href="js/brand.js">
+<link rel="modulepreload" href="js/club.js">
+<link rel="modulepreload" href="js/config.js">
+<link rel="modulepreload" href="js/data.js">
+<link rel="modulepreload" href="js/geo.js">
+<link rel="modulepreload" href="js/hours.js">
+<link rel="modulepreload" href="js/icons.js">
+<link rel="modulepreload" href="js/install.js">
+<link rel="modulepreload" href="js/jalali.js">
+<link rel="modulepreload" href="js/lifecycle.js">
+<link rel="modulepreload" href="js/motion.js">
+<link rel="modulepreload" href="js/photo.js">
+<link rel="modulepreload" href="js/presence.js">
+<link rel="modulepreload" href="js/qr.js">
+<link rel="modulepreload" href="js/router.js">
+<link rel="modulepreload" href="js/store.js">
+<link rel="modulepreload" href="js/tabs.js">
+<link rel="modulepreload" href="js/theme.js">
+<link rel="modulepreload" href="js/ui.js">
+<link rel="modulepreload" href="js/util.js">
+<link rel="modulepreload" href="js/views/bag.js">
+<link rel="modulepreload" href="js/views/branch.js">
+<link rel="modulepreload" href="js/views/branches.js">
+<link rel="modulepreload" href="js/views/checkin.js">
+<link rel="modulepreload" href="js/views/home.js">
+<link rel="modulepreload" href="js/views/menu.js">
+<link rel="modulepreload" href="js/views/order.js">
+<link rel="modulepreload" href="js/views/profile-edit.js">
+<link rel="modulepreload" href="js/views/profile.js">
+<!-- preload:end -->
+<script type="module" src="js/app.js?v=8051cffd1d"></script>
+</head>
+<body>
+
+<!-- boot:start -->
+<div id="boot" aria-hidden="true">
+  <div class="boot-logo">
+    <svg viewBox="133.5 147.1 877.9 1142.1" fill="currentColor" fill-rule="evenodd" focusable="false"><path d="M859 884.7l-5 -.2l-11 -2.6l-14 -2.2l-13 -1.3l-19 -.6l-438 0l-23 -.2l-.5 -.6l-.1 -7l.6 -.7l14 -7.2l10 -7.6l9.2 -9.5l9 -14l4.2 -10l3 -10l2 -13l.8 -19l0 -544l-.5 -18l-1.4 -10l-2.8 -10l-2.1 -5l-6 -10l-8.4 -9.5l-7 -5.8l-14 -8.1l-8.9 -3.6l-.4 -1l.5 -6l224.8 -.5l6 .1l.9 1.4l-.1 6l-11.8 5l-9.9 6l-8.1 6.7l-8.2 9.3l-5 8l-3.8 8l-3.2 11l-1.2 8l-.4 332l.5 259l245.3 .4l10 -.2l13 -1.5l10 -2.6l10 -3.9l9 -5l7 -5.1l7.4 -7.1l7.8 -10l7.1 -13l5.3 -14l1.4 -.6l8 0l.6 1.6l.3 28l-.1 108z"/><path d="M148 1162.2l-2 -.1l-1 -.9l-10.4 -12.2l-.6 -2.9l1 -1.3l15 -10.6l14.3 -13.2l10.1 -12l5.9 -10l4.4 -12l.6 -8l-4.1 -10l-5 -8l-5.1 -6l-.2 -2l1.1 -1.6l15 -10.8l2 -.2l2 1.6l12.7 26l4.8 8l6.5 6.2l6 3l8 1.1l65 .1l9 -1.3l5.5 -3.1l1.8 -2l1.2 -3l.7 -6l.2 -20l3.6 -1.4l14 -3l1 1.4l-.9 27l.6 7l2.3 2.8l3 1.4l13 .2l8 -2.1l5 -3.2l3.2 -3.2l21.4 -31l8.4 -8.2l3 -2.1l5 -2l5 -1.1l7 .1l6 2l4 2.2l5 4.1l3.3 4l2.9 5l2.9 7l5.4 20l1.8 3l3 3l3.7 2.1l4.1 1l23.9 0l1.1 -1l.2 -115l.7 -1.3l4 -1.2l15 -3.8l1.3 .2l.1 125l-2.3 9l-2.7 4l-3.7 3l-2.7 1.3l-5 .9l-29 .1l-8 -1.9l-5 -2.1l-4.5 -3.2l-4.5 -4.8l-5 7.8l-5 4.4l-4 1.8l-10 .4l-7 -1.4l-8 -3l-9 -5.2l-11 -7.8l-4 4.6l-5 4.3l-6 3l-9 1.8l-15 0l-6 -.8l-8 -3.7l-3 -2.5l-3 -3.9l-1 -.3l-8 6.6l-6 2.9l-4 1l-14 .7l-63 .1l-5 -.7l-6 -2.1l-7.9 -5.2l-4.1 -4.3l-1 .8l-2.9 9.5l-4.7 10l-4 7l-7 10l-12.2 14l-8.8 8zM964 1002.2l-2 -.2l-1.4 -1l-8.8 -9l-1.6 -3l1.2 -3l10.6 -10.2l2 -.2l2 .9l10 9l11 -9.7l3 0l11.3 11.2l.1 3l-1.2 2l-10.2 9.7l-2 .2l-2 -.9l-10 -8.5l-10 8.8zM185 1014.2l-3 0l-1 -.6l-9.1 -8.6l-1.8 -3l.1 -2l1.3 -2l9.5 -9.4l2 -.8l3 1l8.3 8.2l1.8 3l-.7 4zM702 1162l-3 .2l-1.4 -1.2l-9.1 -13l-.3 -2l.6 -1l10.2 -4.7l11 -6.1l12 -8l9 -8.2l7.2 -10l-1.2 -.8l-5 -.3l-17 .1l-10 -1.9l-6 -2.8l-4.3 -3.3l-2.9 -4l-2.2 -5l-1 -5l.2 -6l1.7 -7l3.2 -7l3.7 -6l7.2 -9l5.4 -5l6 -3.6l7 -1.6l8 .7l7 3.1l6.2 5.4l6 8l3.2 7l1.8 6l2 15l.8 1.2l82 -.1l1 -.1l.9 -1l2.8 -11l5.1 -12l5.9 -10l6.3 -8l6 -5.4l10 -6.1l10 -2.7l7 .1l6 2l5 4.3l3.4 5.8l1.3 6l-.1 10l-1.3 8l-2.9 8l-5.7 11l.3 1.1l87 .1l3 -.4l2 -1.9l1.3 -4.9l.3 -4l-.6 -1.3l-13 2.6l-13 .1l-9 -2.1l-4 -1.9l-3 -2.4l-3.7 -5l-1.6 -5l-.3 -8l1.3 -6l4.2 -10l7.1 -10l9 -7.7l7 -2.7l9 -.1l9 3.2l6.1 5.3l3 4l3.3 6l2.9 8l2 11l.6 18l-.6 9l-2.1 11l-2.9 9l-2 3l-4.3 3.1l-4 1l-93 -.1l-.4 1l3.8 7l1.8 9l.1 6l-.9 7l-1.9 6l-3.3 6l-3.7 4l-4.5 3l-9 2.6l-10 -.4l-9 -3l-8.9 -6.2l-6.5 -8l-5 -10l-2.8 -12l-.8 -11l-1 -1l-82 .1l-3 .1l-.7 .8l-3 8l-4.2 8l-11.1 13.3l-15 12.9l-7 4.9zM627 1110.2l-8 0l-5 -.9l-6 -2.1l-5 -3.6l-3.3 -3.6l-3.1 -6l-1.1 -6l.2 -8l2.8 -10l3.1 -6l5 -8l8.3 -10l6.2 -6l5.9 -4.2l4 -1.4l5 -.1l5 1.3l6 3.1l5.1 4.3l4.3 5l4.8 8l3.2 8l2 10l0 7l-1 4l-2.1 4l-5.3 6.4l-7 5.9l-12 6.1zM983.5 1058l9.5 -1.2l.6 -.8l-1.3 -6l-2.9 -7l-5.4 -5.8l-4 -2l-6 -.7l-5 2l-3.7 3.5l-2.8 5l-.5 4l.6 3l1.2 2l3.2 2.3l5 1.6zM873.9 1086l6.1 -1.8l5 -3.1l3.6 -4.1l2.7 -5l1.9 -8l.1 -5l-1.8 -5l-3.5 -3l-3 -.5l-4 .4l-4 1.7l-4.9 3.4l-6.3 7l-6.1 12l-1.9 7l-.3 4zM417.6 1089l4.4 -3.1l2.3 -4.9l.3 -10l-2.2 -7l-3.5 -5l-2.9 -2.3l-4 -2l-5 -.6l-6 1.7l-4 2.7l-4.1 4.5l-6.1 10l-1.8 4.5l7 4.7l13 6l6 1.3zM636.5 1089l8.5 -2.8l3.5 -2.2l1.1 -2l-.2 -4l-3.2 -9l-3.9 -6l-5.3 -5.4l-4 -2.6l-3 -.8l-6 3.2l-6.4 6.6l-4.1 8l-.9 3l-.1 5l2.2 5l4.3 3.2l3 1l5 .5zM740.4 1086l-1.1 -7l-3.3 -8l-4 -5.6l-5 -3.9l-6 -1.2l-3 .1l-3 1.1l-5 3.5l-3.2 5l-1.5 4l.3 5l2.4 3.6l4 2.7l3 1l5 .3l19 0zM887 1138l2 -1.1l2.1 -2.9l.5 -7l-2.4 -7l-4.2 -6.4l-5 -3.8l-5 -2l-17 -.7l-.8 .9l2.4 10l4.1 8l3.8 5l4.5 4.1l4 2.1l5 1.2zM328 1147.1l-4 .2l-10 -9l-1 .2l-10 9.1l-3 0l-11.3 -10.6l-.6 -3l3.8 -5l8.1 -7.6l3 .2l11 9.4l9 -8.4l2 -1.1l2 .1l2 1.2l8.1 8.2l1.6 3l-.6 3z"/><path d="M300 1286.7l-34 -.2l-1 -.5l.5 -2l2.5 -.6l2 -1.4l1.2 -2l.1 -2l-6.7 -17l-1.6 -.6l-27 .4l-6 16.2l.8 4l2.2 2l2.8 1l.2 2.2l-24 .4l-.8 -.6l-.1 -2l4.9 -2.4l4 -4.7l22.8 -55.9l8 -19l1.2 -1.4l8 0l1.4 1.4l30.5 74l3.3 5l5.3 3l.2 2zM602 1288.2l-10 .5l-8 -.6l-6 -1.7l-8 -4.2l-6 -5.3l-4.4 -5.9l-3.7 -8l-2 -9l-.2 -12l1.2 -7l2.9 -9l4 -7l6.2 -7.2l8 -6l7 -3.2l9 -2l12 .2l16 3.9l1.5 1.3l-.1 21l-.4 .7l-3 0l-4.8 -10.7l-4.2 -5.1l-5 -3.4l-7 -1.1l-6 1.5l-5.4 4.1l-4.2 6l-3.6 10l-1.7 14l1.3 16l3 9l2.4 4l3.2 3.5l3 2l5 1.8l6 .4l4 -.5l6 -2.9l2.6 -2.3l2.7 -3l2.7 -5.4l3 -.4l.5 .8l0 13l-.5 .8l-9 5.5zM681 1288l-12 .5l-8 -1.2l-8 -3.1l-5 -3.2l-6 -5.6l-4.1 -5.4l-3 -6l-3 -11l-.5 -9l.5 -8l2.7 -10l4.1 -8l5.3 -6.4l6 -4.9l8 -4.1l7 -1.9l7 -.5l9 .6l8 1.9l8 4.2l7.2 6.1l6 8l2.8 6.1l2.2 7.9l.8 8l-.8 10l-2 8l-3.1 7l-5 7l-7.1 6.3l-7 3.9zM205 1286.6l-51 .1l-12 -.6l-.2 -1.1l.7 -1l2.5 -.9l2.6 -2.1l1.6 -4l.1 -56l-.2 -8l-.8 -4l-2.6 -3l-3.7 -1.6l0 -2l14 -.5l18 .1l1 .5l.3 1.5l-.8 1l-2.5 .9l-2.3 2.1l-1.3 4l.1 66l16.5 .4l7 -1l6 -2.9l3.1 -3.5l2.4 -5l2.5 -.6l1 .6l-.8 16l-.4 4zM407 1286.4l-28 .3l-3 -.1l-.5 -.6l.2 -2l2.3 -.7l2.7 -2.3l1.7 -4l.1 -48l-.5 -2l-26.9 59l-2.1 .5l-4 0l-.6 -.5l-22.2 -50l-4.5 -9l-.5 2l.1 47l1.8 5l2.9 2.3l2.5 .7l.3 2l-.8 .5l-12 .1l-10 0l-1 -.5l.1 -2.1l3.9 -1.9l2.5 -3.1l.8 -8l-.3 -58l-2 -5.7l-2 -1.7l-2 -.7l-.9 -1.9l.9 -.8l11 -.3l12 .1l2 .8l26 56.6l10.3 -21.4l7.5 -18l8.2 -17.4l1 -.7l23 .1l.6 1l-.6 1.9l-4 1.7l-1.2 1.4l-1.1 3l-.2 18l.2 48l2.2 5l4.1 2.2l.4 .8zM443 1286.6l-30 -.1l-.9 -.5l.4 -2l3.5 -1.7l2.3 -3.3l.6 -9l-.3 -59l-1.9 -4l-4.7 -2.6l-.3 -1.4l.8 -1l30.5 -.1l1.2 1.1l-.8 2l-2.4 .9l-2.3 2.1l-1.4 4l-.2 5l.2 59l1.5 5l5.2 3.9l-.1 1.1zM519 1286.2l-64 .5l-5 -.1l-1.4 -.6l.4 -4l45 -72l-20 -.5l-6 .9l-4 2.1l-3 2.8l-2.4 3.7l-1.6 4l-3 .6l-.7 -.6l.1 -20l.6 -.9l65 -.3l1 1.2l-.3 2l-45.4 72l-.1 1l22.8 .4l9 -1.2l4 -1.9l2 -1.7l2.3 -2.6l2.7 -5.8l2 -.3l1.3 1.1zM756 1286.4l-29 .2l-4.2 -.6l.4 -2l3.8 -1.8l2.1 -2.2l1.2 -6l-.3 -61l-.9 -4l-1.1 -1.6l-2 -1.7l-3 -1.3l-.3 -1.4l1.1 -1l56.2 0l4 0l.7 1l.1 16l-.8 1.7l-2 -.4l-3.4 -6.3l-4.6 -3.4l-8 -1.3l-16 .1l-.8 .6l0 28l.8 1.7l14 0l4 -.6l4 -2.4l3 -5l2 -.3l.9 .6l.1 1l.1 21l-1.1 1.4l-2 -.5l-1.8 -3.9l-1.2 -1.3l-5 -2.3l-17 -.3l-.8 .9l.4 31l2.4 3.4l4 1.6zM824 1286.6l-31 .1l-1.1 -.7l.2 -2l5.1 -3l1.4 -3l.2 -3l0 -63l-.4 -2l-1.8 -3l-4.6 -2.3l-.3 -1.7l.8 -1l59.5 -.2l1.4 1.2l-.1 17l-1.3 .6l-1.5 -.6l-3.5 -6.4l-5 -3.2l-8 -1.1l-15 .1l-.9 .6l.1 29l.8 .6l17 -.2l5 -3.1l3 -4.7l2 .2l.4 1.2l.1 21l-.5 1.2l-2 .1l-3.2 -5.3l-1.8 -1.4l-3 -1.1l-17 -.3l-1 .8l.1 29l.5 2l1.9 3l4.2 2l.2 2zM925 1286.5l-49 .2l-14.3 -.7l.2 -2l4.1 -1.7l2.3 -3.3l.6 -7l-.1 -59l-.4 -3l-1 -2l-2.4 -2l-3 -1.2l-.5 -1.8l.5 -.9l61.2 -.1l.6 1l0 3l-.2 13l-.6 1.6l-2 -.3l-3.5 -6.3l-4.5 -3.3l-8 -1.3l-16 0l-1.3 .6l.3 29.4l10 .4l8 -.5l5 -2.5l1.6 -1.8l1.3 -3l1.1 -.4l1.6 .4l.2 7l-.1 15l-.7 1.5l-2 -.3l-2.9 -5.2l-4.1 -2.3l-19 -.3l-.3 30.6l1.3 1l20 -.2l4 -.7l6 -3l2.6 -3.1l1.8 -4l2.6 -.6l.7 .6l-.1 3zM996 1286.3l-56 .3l-7.5 -.6l.5 -2l3 -1.5l2.5 -2.5l.9 -3l.2 -4l-.1 -61l-1 -3l-1.4 -2l-2.1 -1.5l-2.3 -.5l-.6 -2l.9 -.9l41 -.4l19 .2l1 .5l0 18.1l-2 .2l-3.6 -6.7l-4.4 -3.4l-8 -1.3l-16 0l-1.5 .7l.2 29l1.3 .6l10 .3l7 -.6l4.6 -2.3l3.4 -5.5l2 0l.6 1.5l.1 20l-.2 2l-2.5 .3l-3 -5.1l-5 -2.6l-18 -.3l-.5 .7l0 29l0 1l1.5 .7l17 .3l6 -.7l5 -1.9l1.9 -1.4l3.3 -4l1.8 -3.4l2 -.2l.6 .6l-.3 6zM678.2 1281l3.8 -1.6l3 -2.4l5.1 -8l2 -7l1.2 -7l.3 -18l-2.3 -14l-2 -5l-3.1 -5l-3.2 -3.1l-4 -2.2l-7 -1l-4 .9l-5 2.8l-3.2 3.6l-3.1 6l-3.1 14l-.4 13l.4 9l1.3 7l1.9 6l2.2 4.7l2.6 3.3l4.4 3.2l3 1.1l6 .2zM261.4 1252l-10.2 -25l-1.2 -1.6l-2.3 4.6l-8.2 22l.5 .8l1 0l19 0z"/></svg>
+  </div>
+</div>
+<!-- boot:end -->
+
+<!-- The top chrome: their L and wordmark, the page title once its large title has
+     scrolled under, and the check-in chip. No bar behind it — a scroll-edge blur. -->
+<header id="bar" class="bar">
+  <div class="bar-l">
+    <button class="glassbtn" id="bar-back" type="button" aria-label="Back" hidden></button>
+    <a class="bar-home" href="#/" aria-label="Lamiz Coffee, home">
+      <span class="bar-mark" id="bar-mark"></span>
+      <span class="bar-word" id="bar-word"></span>
+    </a>
+  </div>
+  <span class="bar-title" id="bar-title" aria-hidden="true"></span>
+  <div class="bar-r">
+    <button class="glassbtn chip-ci" id="ci-chip" type="button" data-in="0" data-live="0" aria-label="Check in">
+      <span class="ci-dot"></span><span id="ci-chip-label">Check in</span>
+    </button>
+  </div>
+</header>
+
+<main id="view" class="view" aria-live="polite"></main>
+
+<!-- The bag, floating over the tab bar whenever there is something in it. -->
+<a id="acc" class="acc" href="#/bag" hidden aria-label="View your bag">
+  <span class="acc-n" id="acc-n">0</span>
+  <span class="acc-t"><b id="acc-sum"></b><span id="acc-beans"></span></span>
+  <span class="acc-go">View bag<span id="acc-chev"></span></span>
+</a>
+
+<!-- Five tabs on glass, and the bag beside them. The lens behind the active tab can
+     be picked up and dragged. -->
+<div class="dockbar" id="dockbar">
+  <nav id="tabs" class="tabs" aria-label="Primary">
+    <span class="tabs-lens" id="tabs-lens" aria-hidden="true"></span>
+    <a class="tab" data-tab="home" href="#/"><span class="tab-ico"></span><span class="tab-l">Home</span></a>
+    <a class="tab" data-tab="menu" href="#/menu"><span class="tab-ico"></span><span class="tab-l">Menu</span></a>
+    <a class="tab" data-tab="checkin" href="#/checkin"><span class="tab-ico"></span><span class="tab-l">Check in</span></a>
+    <a class="tab" data-tab="branches" href="#/branches"><span class="tab-ico"></span><span class="tab-l">Branches</span></a>
+    <a class="tab" data-tab="profile" href="#/profile"><span class="tab-ico"></span><span class="tab-l">Profile</span></a>
+  </nav>
+  <a class="bagbtn" id="bagbtn" href="#/bag" aria-label="Bag, empty">
+    <span id="bag-ico"></span>
+    <span class="bag-badge" id="bag-badge" aria-hidden="true">0</span>
+  </a>
+</div>
+
+<div id="sheet-root"></div>
+<div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+<noscript><p style="padding:24px;font:15px/1.5 system-ui">Lamiz Coffee needs JavaScript to run.</p></noscript>
+</body>
+</html>

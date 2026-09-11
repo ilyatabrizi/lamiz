@@ -1,0 +1,203 @@
+{
+ "4rahvaliasr": {
+  "lat": 35.7017713,
+  "lng": 51.4053636,
+  "place": "Lamiz Coffee"
+ },
+ "ahvaz": {
+  "lat": 31.3473038,
+  "lng": 48.6861709,
+  "place": "مجتمع خرید رویال پارس‭"
+ },
+ "ajudaniyeh": {
+  "lat": 35.8158065,
+  "lng": 51.4837167,
+  "place": "مجتمع تجاری عرش آجودانیه‭"
+ },
+ "argentina": {
+  "lat": 35.7399767,
+  "lng": 51.4143591,
+  "place": "قهوه لمیز‭"
+ },
+ "babolsar": {
+  "lat": 36.6925548,
+  "lng": 52.5802502,
+  "place": "Lamiz Coffee"
+ },
+ "bagh-ferdows": {
+  "lat": 35.8070344,
+  "lng": 51.4252329,
+  "place": "Lamiz Coffee| Ferdows Garden"
+ },
+ "enghelab": {
+  "lat": 35.7020034,
+  "lng": 51.3908631,
+  "place": "Lamiz Coffee| Enghelab St."
+ },
+ "fakharmoghadam": {
+  "lat": 35.7659997,
+  "lng": 51.357554,
+  "place": "LamizCoffee - FakharMoghadam"
+ },
+ "farmanieh": {
+  "lat": 35.7993584,
+  "lng": 51.4729334,
+  "place": "Lamiz Coffee| Farmanieh"
+ },
+ "fatemi": {
+  "lat": 35.7199746,
+  "lng": 51.4050949,
+  "place": "Lamiz Coffee | Fatemi St."
+ },
+ "ferdows-boulevard": {
+  "lat": 35.723036,
+  "lng": 51.3188482,
+  "place": "Lamiz Coffee"
+ },
+ "gisha": {
+  "lat": 35.7269575,
+  "lng": 51.3792265,
+  "place": "Lamizcoffee"
+ },
+ "golestan": {
+  "lat": 35.7535711,
+  "lng": 51.374038,
+  "place": "Lamiz Coffee"
+ },
+ "haft-hoz": {
+  "lat": 35.7299391,
+  "lng": 51.4952701,
+  "place": "Lamiz Coffe Narmak"
+ },
+ "heravi": {
+  "lat": 35.7681509,
+  "lng": 51.4745747,
+  "place": "Tida Center"
+ },
+ "iranmal": {
+  "lat": 35.7526477,
+  "lng": 51.1901055,
+  "place": "Lamiz coffee iranmal"
+ },
+ "isfahan": {
+  "lat": 32.6532783,
+  "lng": 51.6759531,
+  "place": "Lamiz Coffee"
+ },
+ "izadshahr": {
+  "lat": 36.6035816,
+  "lng": 52.1603886,
+  "place": "قهوه لمیز شعبه ایزد شهر‭"
+ },
+ "jam": {
+  "lat": 35.7212898,
+  "lng": 51.4229762,
+  "place": "Lamiz Coffee"
+ },
+ "jordan-atefi-sharghi": null,
+ "jordan": {
+  "lat": 35.7813229,
+  "lng": 51.4231067,
+  "place": "Lamiz Coffee| Jordan"
+ },
+ "karaj": {
+  "lat": 35.8352454,
+  "lng": 51.0134727,
+  "place": "قهوه لمیز کرج‭"
+ },
+ "kish-telecabin": {
+  "lat": 26.5472373,
+  "lng": 54.0227519,
+  "place": "قهوه لمیز - کیش (تلکابین)‭"
+ },
+ "kish": {
+  "lat": 26.5361818,
+  "lng": 54.0251884,
+  "place": "Lamiz coffee"
+ },
+ "lavasan": {
+  "lat": 35.8179831,
+  "lng": 51.6122611,
+  "place": "قهوه لمیز شعبه لواسان‭"
+ },
+ "mehr-o-mah": {
+  "lat": 34.7427383,
+  "lng": 50.8670645,
+  "place": "Lamiz Cafe"
+ },
+ "mehrshahr": {
+  "lat": 35.8081512,
+  "lng": 50.9121742,
+  "place": "35°48'29.3\"N 50°54'43.8\"E"
+ },
+ "mirdamad": {
+  "lat": 35.7601043,
+  "lng": 51.4340275,
+  "place": "cafe"
+ },
+ "modireat-bridge": {
+  "lat": 35.7696459,
+  "lng": 51.3791007,
+  "place": "Lamiz Coffee"
+ },
+ "motahari": {
+  "lat": 35.7238219,
+  "lng": 51.4406727,
+  "place": "قهوه لمیز شعبه مطهری‭"
+ },
+ "motel-ghoo": {
+  "lat": 36.7082237,
+  "lng": 51.2070813,
+  "place": "Lamiz Coffee - Motel Qoo"
+ },
+ "pasdaran": {
+  "lat": 35.7686702,
+  "lng": 51.4584266,
+  "place": "قهوه لمیز شعبه پاسداران‭"
+ },
+ "paydarfard": {
+  "lat": 35.7632792,
+  "lng": 51.4585933,
+  "place": "Lamiz Coffee"
+ },
+ "pol-romi": {
+  "lat": 35.7918334,
+  "lng": 51.4348955,
+  "place": "Lamiz Coffee"
+ },
+ "royan": {
+  "lat": 36.5690699,
+  "lng": 51.9399862,
+  "place": "Lamiz Coffee"
+ },
+ "saadatabad": {
+  "lat": 35.7822425,
+  "lng": 51.3768145,
+  "place": "قهوه‌ لمیز‭"
+ },
+ "shahrak-e-gharb": {
+  "lat": 35.7544821,
+  "lng": 51.3746164,
+  "place": "Lamiz Coffee| Shahrak-e Gharb"
+ },
+ "shiraz": {
+  "lat": 29.6364533,
+  "lng": 52.5305308,
+  "place": "Lamiz Coffee"
+ },
+ "tajrish-monin": {
+  "lat": 35.8070596,
+  "lng": 51.4281151,
+  "place": "Lamiz Coffee| Tajrish Sq."
+ },
+ "vanak": {
+  "lat": 35.7588723,
+  "lng": 51.4101114,
+  "place": "قهوه لمیز شعبه ونک‭"
+ },
+ "yousef-abad": {
+  "lat": 35.7332482,
+  "lng": 51.4064457,
+  "place": "قهوه لمیز شعبه یوسف آباد‭"
+ }
+}

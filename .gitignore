@@ -1,0 +1,5 @@
+.DS_Store
+scripts/src/
+scripts/shots/
+__pycache__/
+.claude/

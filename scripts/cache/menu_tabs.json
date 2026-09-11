@@ -1,0 +1,1850 @@
+[
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 36472,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+    "fields": [
+     "اسپرسو",
+     "Espresso",
+     "تک‌شات: 198,800",
+     "1 کالری",
+     "جفت‌شات: 248,800",
+     "2 کالری",
+     "محتویات: تک‌شات 30 میلی‌لیتر، جفت‌شات 60 میلی‌لیتر عصاره قهوه"
+    ]
+   },
+   {
+    "pid": 36590,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-MACCHIATO-LAMIZ.webp",
+    "fields": [
+     "اسپرسو ماکیاتو",
+     "Espresso Macchiato",
+     "تک‌شات: 208,800",
+     "14 کالری",
+     "جفت‌شات: 288,800",
+     "22 کالری",
+     "محتویات: اسپرسو، شیر با فوم زیاد"
+    ]
+   },
+   {
+    "pid": 36591,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-CON-PANNA-LAMIZ.webp",
+    "fields": [
+     "اسپرسو کان‌پانا",
+     "Espresso Con Panna",
+     "تک‌شات: 208,800",
+     "33 کالری",
+     "جفت‌شات: 288,800",
+     "35 کالری",
+     "محتویات: اسپرسو، خامه"
+    ]
+   },
+   {
+    "pid": 36592,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-AFFOGATO-LAMIZ.webp",
+    "fields": [
+     "اسپرسو آفوگاتو",
+     "Espresso Affogato",
+     "تک‌شات: 228,800",
+     "102 کالری",
+     "جفت‌شات: 298,800",
+     "104 کالری",
+     "محتویات: اسپرسو، یک اسکوپ بستنی وانیلی"
+    ]
+   },
+   {
+    "pid": 36593,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/DAILY-BREW-LAMIZ.webp",
+    "fields": [
+     "قهوه دمی",
+     "Daily Brew",
+     "کوچک: 248,800",
+     "4 کالری",
+     "متوسط: 288,800",
+     "5 کالری",
+     "بزرگ: 348,800",
+     "7 کالری",
+     "محتویات: قهوه دمی دستگاهی"
+    ]
+   },
+   {
+    "pid": 36594,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/AMERICANO-LAMIZ.webp",
+    "fields": [
+     "آمریکانو",
+     "AMERICANO",
+     "کوچک: 210,800",
+     "3 کالری",
+     "متوسط: 258,800",
+     "4 کالری",
+     "بزرگ: 288,800",
+     "7 کالری",
+     "محتویات: شات اسپرسو، آب داغ"
+    ]
+   },
+   {
+    "pid": 36607,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/LATTE-LAMIZ.webp",
+    "fields": [
+     "کافه لاته",
+     "LATTE",
+     "کوچک: 248,800",
+     "146 کالری",
+     "متوسط: 318,800",
+     "196 کالری",
+     "بزرگ: 348,800",
+     "249 کالری",
+     "محتویات: شات اسپرسو، شیر با فوم کم"
+    ]
+   },
+   {
+    "pid": 36606,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPUCCINO-LAMIZ.webp",
+    "fields": [
+     "کپوچینو",
+     "CAPPUCCINO",
+     "کوچک: 248,800",
+     "133 کالری",
+     "متوسط: 318,800",
+     "171 کالری",
+     "بزرگ: 348,800",
+     "218 کالری",
+     "محتویات: شات اسپرسو، شیر با فوم زیاد"
+    ]
+   },
+   {
+    "pid": 36598,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CARAMEL-MACCHIATO-LAMIZ.webp",
+    "fields": [
+     "کارامل ماکیاتو",
+     "CARAMEL MACCHIATO",
+     "کوچک: 298,800",
+     "185 کالری",
+     "متوسط: 368,800",
+     "243 کالری",
+     "بزرگ: 398,800",
+     "315 کالری",
+     "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر با فوم زیاد، سس کارامل"
+    ]
+   },
+   {
+    "pid": 36597,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CORTADO-LAMIZ.webp",
+    "fields": [
+     "کورتادو",
+     "CORTADO",
+     "متوسط: 298,800",
+     "78 کالری",
+     "محتویات: شات اسپرسو، شیر با فوم کم، طعم دهنده (به درخواست مشتری)"
+    ]
+   },
+   {
+    "pid": 36599,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MOCHA-LAMIZ.webp",
+    "fields": [
+     "کافه موکا",
+     "MOCHA",
+     "کوچک: 298,800",
+     "232 کالری",
+     "متوسط: 368,800",
+     "309 کالری",
+     "بزرگ: 398,800",
+     "405 کالری",
+     "محتویات: شات اسپرسو، شکلات چیپسی، شیر با فوم کم"
+    ]
+   },
+   {
+    "pid": 36601,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/HOT-CHOCOLATE​-LAMIZ.webp",
+    "fields": [
+     "شکلات گرم​",
+     "HOT CHOCOLATE​",
+     "کوچک: 238,800",
+     "289 کالری",
+     "متوسط: 268,800",
+     "375 کالری",
+     "بزرگ: 298,800",
+     "503 کالری",
+     "محتویات: شکلات چیپسی، پودر کاکائو، شیر گرم فوم کم"
+    ]
+   },
+   {
+    "pid": 58038,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CHAI-LATTE-LAMIZ.webp",
+    "fields": [
+     "ماسالا",
+     "MASALA",
+     "کوچک: 228,800",
+     "235 کالری",
+     "متوسط: 258,800",
+     "310 کالری",
+     "بزرگ: 288,800",
+     "400 کالری",
+     "محتویات: پودر ماسالا مخصوص لمیز (زنجبیل، دارچین، میخک، شکر و ...)، شیر با فوم کم"
+    ]
+   },
+   {
+    "pid": 36604,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/STEAMED-MILK-LAMIZ​.webp",
+    "fields": [
+     "شیر گرم",
+     "STEAMED MILK​",
+     "کوچک: 148,800",
+     "167 کالری",
+     "متوسط: 168,800",
+     "223 کالری",
+     "بزرگ: 188,800",
+     "298 کالری",
+     "محتویات: شیر با فوم کم"
+    ]
+   },
+   {
+    "pid": 62235,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/03/PERSIAN-LATTE.webp",
+    "fields": [
+     "پرشین لاته",
+     "PERSIAN LATTE",
+     "متوسط: 298,800",
+     "446 کالری",
+     "محتویات: کره پسته، طعم دهنده زعفران، گلاب و شیرگرم"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 36719,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-AMERICANO-LAMIZ.webp",
+    "fields": [
+     "آمریکانو سرد",
+     "ICED AMERICANO",
+     "کوچک: 210,800",
+     "3 کالری",
+     "متوسط: 258,800",
+     "4 کالری",
+     "بزرگ: 288,800",
+     "7 کالری",
+     "محتویات: شات اسپرسو، آب سرد تصفیه شده، یخ"
+    ]
+   },
+   {
+    "pid": 69596,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-AMERICANO-LAMIZ.webp",
+    "fields": [
+     "فیزی آمریکانو",
+     "Fizzy AMERICANO",
+     "متوسط: 338,800",
+     "محتویات: اسپرسو، آب لیمو تازه، سودا بدون طعم، یخ"
+    ]
+   },
+   {
+    "pid": 36720,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-LATTE-LAMIZ.webp",
+    "fields": [
+     "کافه لاته سرد",
+     "ICED LATTE",
+     "کوچک: 248,800",
+     "104 کالری",
+     "متوسط: 318,800",
+     "117 کالری",
+     "بزرگ: 348,800",
+     "144 کالری",
+     "محتویات: شات اسپرسو، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36722,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MOCHA-LAMIZ.webp",
+    "fields": [
+     "کافه موکا سرد",
+     "ICED MOCHA",
+     "کوچک: 298,800",
+     "212 کالری",
+     "متوسط: 368,800",
+     "248 کالری",
+     "بزرگ: 398,800",
+     "321 کالری",
+     "محتویات: شات اسپرسو، شکلات چیپسی، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36723,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CARAMEL-MACCHIATO-LAMIZ.webp",
+    "fields": [
+     "کارامل ماکیاتو سرد",
+     "ICED CARAMEL MACCHIATO",
+     "کوچک: 298,800",
+     "175 کالری",
+     "متوسط: 368,800",
+     "200 کالری",
+     "بزرگ: 398,800",
+     "255 کالری",
+     "محتویات: شات اسپرسو، طعم دهنده وانیل، سس کارامل، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36726,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CAPPUCCINO-LAMIZ.webp",
+    "fields": [
+     "کپوچینو سرد",
+     "ICED Cappuccino",
+     "کوچک: 248,800",
+     "90 کالری",
+     "متوسط: 318,800",
+     "112 کالری",
+     "بزرگ: 348,800",
+     "167 کالری",
+     "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36724,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CHOCOLATE-LAMIZ.webp",
+    "fields": [
+     "شکلات سرد",
+     "ICED chocolate",
+     "کوچک: 238,800",
+     "246 کالری",
+     "متوسط: 268,800",
+     "290 کالری",
+     "بزرگ: 298,800",
+     "391 کالری",
+     "محتویات: بیس شکلات، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 62239,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/03/PERSIAN-CHILLO.webp",
+    "fields": [
+     "پرشین چیلو",
+     "PERSIAN CHILLO",
+     "متوسط: 328,800",
+     "548 کالری",
+     "محتویات: کره پسته، طعم دهنده زعفران، گلاب، شیر، بستنی وانیلی و یخ خرد شده"
+    ]
+   },
+   {
+    "pid": 50735,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MASALA-SHAKE.webp",
+    "fields": [
+     "ماسالا چیلو",
+     "Masala chillo",
+     "متوسط: 298,800",
+     "343 کالری",
+     "محتویات: بستنی، یخ، شیر، پودر ماسالا"
+    ]
+   },
+   {
+    "pid": 36736,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/FRUITCHILLO-LAMIZ.webp",
+    "fields": [
+     "چیلو میوه‌ای",
+     "fruit chillo",
+     "کوچک: 258,800",
+     "204 کالری",
+     "متوسط: 288,800",
+     "272 کالری",
+     "بزرگ: 328,800",
+     "357 کالری",
+     "محتویات: پوره میوه ( توت فرنگی یا انبه )، آب سرد تصفیه شده، یخ"
+    ]
+   },
+   {
+    "pid": 58204,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/09/FRUITCHILLO-WITH-ICE-CREAM-LAMIZ.webp",
+    "fields": [
+     "چیلو میوه ای با بستنی",
+     "fruitchillo with ice cream",
+     "کوچک: 258,800",
+     "352 کالری",
+     "متوسط: 288,800",
+     "528 کالری",
+     "بزرگ: 328,800",
+     "704 کالری",
+     "محتویات: طعم دهنده ( انار یا زرشک )، یخ، بستنی وانیلی"
+    ]
+   },
+   {
+    "pid": 36727,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPACHILLO-LAMIZ.webp",
+    "fields": [
+     "کاپاچیلو",
+     "cappachillo",
+     "کوچک: 288,800",
+     "187 کالری",
+     "متوسط: 348,800",
+     "280 کالری",
+     "بزرگ: 398,800",
+     "374 کالری",
+     "محتویات: شات اسپرسو، بستنی وانیلی، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36731,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPACHILLO-LAMIZ.webp",
+    "fields": [
+     "کارامل کاپاچیلو",
+     "caramel cappachillo",
+     "کوچک: 348,800",
+     "236 کالری",
+     "متوسط: 388,800",
+     "346 کالری",
+     "بزرگ: 428,800",
+     "473 کالری",
+     "محتویات: شات اسپرسو، سس کارامل، بستنی وانیلی، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36732,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MOCHACHILLO-LAMIZ.webp",
+    "fields": [
+     "موکا چیلو",
+     "mocha chillo",
+     "کوچک: 348,800",
+     "302 کالری",
+     "متوسط: 388,800",
+     "420 کالری",
+     "بزرگ: 428,800",
+     "546 کالری",
+     "محتویات: شات اسپرسو، شکلات چیپسی، بستنی، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36735,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CHOCOLATECHILLO-LAMIZ.webp",
+    "fields": [
+     "چیلو شکلاتی",
+     "chocolate chillo",
+     "کوچک: 258,800",
+     "318 کالری",
+     "متوسط: 288,800",
+     "440 کالری",
+     "بزرگ: 328,800",
+     "592 کالری",
+     "محتویات: شکلات چیپسی، پودر کاکائو، طعم‌دهنده، شیر داغ برای میکس، بستنی، یخ"
+    ]
+   },
+   {
+    "pid": 63570,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Pineapple-Basil-Slushy-LAmiz.webp",
+    "fields": [
+     "اسلاشی آناناس و ریحان",
+     "Pineapple & Basil Slushy",
+     "متوسط: 218,800",
+     "محتویات: پوره آناناس، ریحان تازه، لیمو، یخ، آب"
+    ]
+   },
+   {
+    "pid": 36737,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CAFE-GELATO-LAMIZ.webp",
+    "fields": [
+     "کافه ژلاتو",
+     "cafe gelato",
+     "متوسط: 388,800",
+     "348 کالری",
+     "محتویات: شات اسپرسو، چهار اسکوپ بستنی وانیلی، سس شکلات / کارامل"
+    ]
+   },
+   {
+    "pid": 65336,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس تی چای سبز",
+     "Green Iced Tea",
+     "متوسط: 198,800",
+     "2 کالری",
+     "محتویات: چای سبز دم شده، یخ"
+    ]
+   },
+   {
+    "pid": 63877,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز توت فرنگی",
+     "Strawberry Green Iced Tea",
+     "متوسط: 248,800",
+     "140 کالری",
+     "محتویات: چای سبز دم شده، پوره توت فرنگی، یخ"
+    ]
+   },
+   {
+    "pid": 63946,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز انبه",
+     "Mango Green Iced Tea",
+     "متوسط: 248,800",
+     "140 کالری",
+     "محتویات: چای سبز دم شده، پوره انبه، یخ"
+    ]
+   },
+   {
+    "pid": 63949,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز زرشک",
+     "Barberry Green Iced Tea",
+     "متوسط: 248,800",
+     "140 کالری",
+     "محتویات: چای سبز دم شده، شربت زرشک، یخ"
+    ]
+   },
+   {
+    "pid": 65344,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس تی چای سیاه",
+     "Black Iced Tea",
+     "متوسط: 218,680",
+     "2 کالری",
+     "محتویات: چای سیاه دم شده، یخ"
+    ]
+   },
+   {
+    "pid": 63955,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه انبه",
+     "Mango Black Iced Tea",
+     "متوسط: 270,000",
+     "140 کالری",
+     "محتویات: چای سیاه دم شده، پوره انبه، یخ"
+    ]
+   },
+   {
+    "pid": 60049,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه توت فرنگی",
+     "Strawberry Black Iced Tea",
+     "متوسط: 270,000",
+     "140 کالری",
+     "محتویات: چای سیاه دم شده، پوره توت فرنگی، یخ"
+    ]
+   },
+   {
+    "pid": 63956,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه زرشک",
+     "Barberry Iced Tea",
+     "متوسط: 297,000",
+     "140 کالری",
+     "محتویات: چای سیاه دم شده، شربت زرشک، یخ"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 67335,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/01/Fizzy-Berry-1.webp",
+    "fields": [
+     "فیزی بری",
+     "Fizzy Berry",
+     "متوسط: 288,800",
+     "محتویات: پوره شاتوت، عرق بهار نارنج، آب لیمو‌ تازه، سودا بدون طعم، یخ"
+    ]
+   },
+   {
+    "pid": 67329,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/01/Fizzy-Mango.webp",
+    "fields": [
+     "فیزی منگو",
+     "Fizzy Mango",
+     "متوسط: 288,800",
+     "محتویات: پوره انبه، طعم دهنده الدرفلاور، آب لیمو تازه، سودا بدون طعم، یخ"
+    ]
+   },
+   {
+    "pid": 67332,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/01/Peanut-Butter-Biscuit-Shake.webp",
+    "fields": [
+     "شیک بیسکوئیت بادام زمینی",
+     "Peanut Butter Biscuit Shake",
+     "متوسط: 328,800",
+     "محتویات: بستنی وانیلی، یخ، شیر، کرم بیسکوئیت بادام زمینی"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 36681,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHA-TEA-LAMIZ.webp",
+    "fields": [
+     "چای ماچا",
+     "MATCHA TEA",
+     "کوچک: 298,800",
+     "5 کالری",
+     "متوسط: 368,800",
+     "8 کالری",
+     "بزرگ: 398,800",
+     "11 کالری",
+     "محتویات: پودر ماچا، آب گرم"
+    ]
+   },
+   {
+    "pid": 36682,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHA-LATTE-LAMIZ.webp",
+    "fields": [
+     "ماچا لاته",
+     "MATCHA LATTE",
+     "کوچک: 306,800",
+     "108 کالری",
+     "متوسط: 379,800",
+     "152 کالری",
+     "بزرگ: 409,800",
+     "209 کالری",
+     "محتویات: پودر ماچا، آب گرم، شیر با فوم کم"
+    ]
+   },
+   {
+    "pid": 36684,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MATCHA-LATTE-LAMIZ.webp",
+    "fields": [
+     "ماچا لاته سرد",
+     "ICED MATCHA LATTE",
+     "کوچک: 306,800",
+     "100 کالری",
+     "متوسط: 379,800",
+     "116 کالری",
+     "بزرگ: 409,800",
+     "173 کالری",
+     "محتویات: پودر ماچا، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 36685,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHACHILLO-LAMIZ.webp",
+    "fields": [
+     "ماچاچیلو",
+     "MATCHACHILLO",
+     "کوچک: 312,800",
+     "192 کالری",
+     "متوسط: 386,800",
+     "289 کالری",
+     "بزرگ: 417,800",
+     "385 کالری",
+     "محتویات: پودر ماچا، بستنی، شیر سرد کم چرب، یخ"
+    ]
+   },
+   {
+    "pid": 36686,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHAGATO-LAMIZ.webp",
+    "fields": [
+     "ماچا گاتو",
+     "matchagato",
+     "متوسط: 368,800",
+     "99 کالری",
+     "محتویات: پودر ماچا، آب داغ، بستنی وانیلی"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 66598,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2021/06/Avocado-Smoothie.webp",
+    "fields": [
+     "اسموتی آووکادو",
+     "Avocado Smoothie",
+     "متوسط: 638,800",
+     "محتویات: آووکادو، موز، پروماست، عسل، یخ"
+    ]
+   },
+   {
+    "pid": 66604,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2021/06/Avocado-Cocoa.webp",
+    "fields": [
+     "اسموتی آووکادو کاکائو",
+     "Avocado Cocoa Smoothie",
+     "متوسط: 638,800",
+     "محتویات: آووکادو، موز، شیر بادام، عسل، پودر کاکائو، یخ"
+    ]
+   },
+   {
+    "pid": 64996,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Wellness-Smoothie.webp",
+    "fields": [
+     "اسموتی سلامت",
+     "wellness smoothie",
+     "متوسط: 420,000",
+     "محتویات: پروماست، موز، کلاژن، اسپرولینا، یخ، طعم دهنده نارگیل"
+    ]
+   },
+   {
+    "pid": 62750,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/05/Protein-Coffee.webp",
+    "fields": [
+     "پروتئین کافی",
+     "Protein Coffee",
+     "متوسط: 468,800",
+     "محتویات: شیر(بادام، لبنی)، پودر پروتئین وی شکلاتی، اسپرسو، یخ"
+    ]
+   },
+   {
+    "pid": 36744,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MORINGA-PROTEIN-SHAKE-LAMIZ.webp",
+    "fields": [
+     "شیک پروتئین مورینگا",
+     "Moringa Protein Shake",
+     "متوسط: 448,800",
+     "محتویات: پروتئین وی وانیلی، موز، مورینگا، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 36745,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/PEANUT-BUTTER-CHOCOLATE-PROTEIN-SHAKE-1.webp",
+    "fields": [
+     "شیک پروتئین شکلات و کره بادام زمینی",
+     "Peanut Butter Chocolate Protein Shake",
+     "متوسط: 448,800",
+     "محتویات: پروتیین وی شکلاتی، موز، کره بادام زمینی، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 36743,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/BLUE-SPIRULINA-BOWL-LAMIZ.webp",
+    "fields": [
+     "کاسه‌ اسپرولینای آبی",
+     "Blue Spirulina Bowl",
+     "متوسط: 428,800",
+     "محتویات: پروماست ایسلندی، اسپرولینای آبی، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده نارگیل"
+    ]
+   },
+   {
+    "pid": 36741,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/GREEN-SUPER-MATCHA-BOWL-LAMIZ.webp",
+    "fields": [
+     "کاسه‌ سوپر ماچای سبز",
+     "Green Super Matcha Bowl",
+     "متوسط: 428,800",
+     "محتویات: پروماست ایسلندی، سوپر ماچا، موز، گرانولا، چیاسید، پرک بادام درختی، طعم دهنده وانیل"
+    ]
+   },
+   {
+    "pid": 36595,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/BULLETPROOF-COFFEE-BUTTER-LAMIZ.webp",
+    "fields": [
+     "قهوه ضد گلوله/کره",
+     "BULLETPROOF COFFEE/Butter",
+     "متوسط: 288,800",
+     "محتویات: شات اسپرسو، آب داغ، کره"
+    ]
+   },
+   {
+    "pid": 36596,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/VEGAN-BULLETPROOF-COFFEE-COCONUT-OIL-LAMIZ.webp",
+    "fields": [
+     "قهوه ضد گلوله وگن/ روغن نارگیل​",
+     "VEGAN BULLETPROOF COFFEE/COCONUT Oil",
+     "متوسط: 288,800",
+     "محتویات: شات اسپرسو، آب داغ، روغن نارگیل"
+    ]
+   },
+   {
+    "pid": 36603,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/TURMERIC-LATTE-LAMIZ​.webp",
+    "fields": [
+     "شیر زردچوبه",
+     "TURMERIC LATTE​",
+     "متوسط: 238,800",
+     "محتویات: زردچوبه، شیر با فوم کم"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 52631,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2022/04/V60.webp",
+    "fields": [
+     "وی 60 کاستاریکا",
+     "V60 Costa Rica",
+     "متوسط: 328,800"
+    ]
+   },
+   {
+    "pid": 52628,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2022/04/V60.webp",
+    "fields": [
+     "وی 60 لاویا",
+     "v60 La Villa",
+     "متوسط: 348,800"
+    ]
+   },
+   {
+    "pid": 65442,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2022/04/clever.webp",
+    "fields": [
+     "کلور کاستاریکا",
+     "Clever Costa Rica",
+     "متوسط: 328,800"
+    ]
+   },
+   {
+    "pid": 52638,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2022/04/clever.webp",
+    "fields": [
+     "کلور لاویا",
+     "Clever La Villa",
+     "متوسط: 348,800"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 69241,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/BLACK-TEA-LAMIZ.webp",
+    "fields": [
+     "چای لاهیجان",
+     "lahijan tea",
+     "متوسط: 128,800",
+     "متوسط: 148,800",
+     "محتویات: چای لاهیجان"
+    ]
+   },
+   {
+    "pid": 51999,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/BLACK-TEA-LAMIZ.webp",
+    "fields": [
+     "چای سیاه لمیز",
+     "black tea",
+     "متوسط: 128,800",
+     "متوسط: 148,800",
+     "محتویات: چای سیاه لمیز"
+    ]
+   },
+   {
+    "pid": 52007,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/green-tea-1.webp",
+    "fields": [
+     "چای سبز",
+     "green tea",
+     "متوسط: 128,800",
+     "محتویات: چای سبز"
+    ]
+   },
+   {
+    "pid": 52009,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/zen-garden.webp",
+    "fields": [
+     "دمنوش ذن دم",
+     "zen garden",
+     "متوسط: 128,800",
+     "محتویات: بابونه، لمون گرس"
+    ]
+   },
+   {
+    "pid": 52005,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/berry-sour-sip.webp",
+    "fields": [
+     "دمنوش دم آشام ترش",
+     "Berry Hibiscus Sip",
+     "متوسط: 128,800",
+     "محتویات: چای ﺗﺮش، کرن‌بری، آﻧﺎﻧﺎس، پاپایا، ﺗﻮت‌ﻓﺮنگی، چای ﺑﻪ"
+    ]
+   },
+   {
+    "pid": 52003,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/tranquili-tea.webp",
+    "fields": [
+     "دمنوش آسوده دم",
+     "Tranquili Tea",
+     "متوسط: 128,800",
+     "محتویات: توت‌فرنگی، چای سیب، چای به، گل محمدی، دارچین، هل"
+    ]
+   },
+   {
+    "pid": 69243,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/green-tea-1.webp",
+    "fields": [
+     "دمنوش تازه دم",
+     "Verbena Refresh",
+     "متوسط: 128,800",
+     "محتویات: نعنا فلفلی"
+    ]
+   },
+   {
+    "pid": 69245,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/05/sleepy-duo.webp",
+    "fields": [
+     "دمنوش دم خواب",
+     "Sleepy Due",
+     "متوسط: 128,800",
+     "محتویات: گل گاوزبان، لیمو"
+    ]
+   },
+   {
+    "pid": 69246,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/zen-garden.webp",
+    "fields": [
+     "دمنوش بازدم",
+     "Sereni-Tea Glow",
+     "متوسط: 128,800",
+     "محتویات: چای سیاه، چای به، بهارنارنج"
+    ]
+   },
+   {
+    "pid": 69249,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/05/vitali-tea.webp",
+    "fields": [
+     "دمنوش دم به دم",
+     "Vitali-Tea",
+     "متوسط: 128,800",
+     "محتویات: جینسینگ، زنجبیل، زیره سیاه، گل محمدی، دارچین، هل، پرتقال، میخک"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 36684,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MATCHA-LATTE-LAMIZ.webp",
+    "fields": [
+     "ماچا لاته سرد",
+     "ICED MATCHA LATTE",
+     "کوچک: 450,780",
+     "متوسط: 417,780",
+     "بزرگ: 337,480",
+     "محتویات: پودر ماچا، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 36724,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CHOCOLATE-LAMIZ.webp",
+    "fields": [
+     "شکلات سرد",
+     "ICED chocolate",
+     "کوچک: 328,680",
+     "متوسط: 324,500",
+     "بزرگ: 262,680",
+     "محتویات: بیس شکلات، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 60035,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/07/ICED-LATTE-COLD-BREW-LAMIZ.webp",
+    "fields": [
+     "لاته سرد",
+     "ICED LATTE",
+     "متوسط: 350,680",
+     "محتویات: قهوه دمی، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 60039,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/07/ICED-LATTE-COLD-BREW-LAMIZ.webp",
+    "fields": [
+     "لاته سرد طعم دار",
+     "SWEET  ICED LATTE",
+     "متوسط: 405,680",
+     "محتویات: قهوه دمی، شیر، یخ، طعم دهنده (وانیل، کارامل، فندق)"
+    ]
+   },
+   {
+    "pid": 60044,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/07/SAFFRON-ICED-MILKTEA-LAMIZ.webp",
+    "fields": [
+     "شیر چای زعفرانی سرد",
+     "ICED SAFFRON MILK TEA",
+     "متوسط: 308,800",
+     "محتویات: چای سیاه دم شده، شیر، طعم دهنده زعفران، یخ"
+    ]
+   },
+   {
+    "pid": 60052,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/07/BARBERRY-COLD-BREW-LAMIZ.webp",
+    "fields": [
+     "قهوه سرددم زرشک",
+     "BARBERRY COLD BREW",
+     "متوسط: 330,000",
+     "محتویات: قهوه دمی سرد شده، آب، طعم دهنده زرشک، یخ"
+    ]
+   },
+   {
+    "pid": 60067,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/07/STRAWBERRY-MILK-LAMIZ.webp",
+    "fields": [
+     "شیرتوت فرنگی",
+     "STRAWBERRY MILK",
+     "متوسط: 264,000",
+     "محتویات: پوره توت فرنگی، طعم دهنده توت فرنگی، شیر، یخ"
+    ]
+   },
+   {
+    "pid": 36686,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHAGATO-LAMIZ.webp",
+    "fields": [
+     "ماچا گاتو",
+     "matchagato",
+     "متوسط: 405,680",
+     "محتویات: پودر ماچا، آب داغ، بستنی وانیلی"
+    ]
+   },
+   {
+    "pid": 65336,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس تی چای سبز",
+     "Green Iced Tea",
+     "متوسط: 218,680",
+     "محتویات: چای سبز دم شده، یخ"
+    ]
+   },
+   {
+    "pid": 63877,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز توت فرنگی",
+     "Strawberry Green Iced Tea",
+     "متوسط: 273,680",
+     "محتویات: چای سبز دم شده، پوره توت فرنگی، یخ"
+    ]
+   },
+   {
+    "pid": 63946,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز انبه",
+     "Mango Green Iced Tea",
+     "متوسط: 273,680",
+     "محتویات: چای سبز دم شده، پوره انبه، یخ"
+    ]
+   },
+   {
+    "pid": 63949,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سبز زرشک",
+     "Barberry Green Iced Tea",
+     "متوسط: 273,680",
+     "محتویات: چای سبز دم شده، شربت زرشک، یخ"
+    ]
+   },
+   {
+    "pid": 65344,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس تی چای سیاه",
+     "Black Iced Tea",
+     "متوسط: 218,680",
+     "محتویات: چای سیاه دم شده، یخ"
+    ]
+   },
+   {
+    "pid": 63955,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه انبه",
+     "Mango Black Iced Tea",
+     "متوسط: 297,000",
+     "محتویات: چای سیاه دم شده، پوره انبه، یخ"
+    ]
+   },
+   {
+    "pid": 60049,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه توت فرنگی",
+     "Strawberry Black Iced Tea",
+     "متوسط: 297,000",
+     "محتویات: چای سیاه دم شده، پوره توت فرنگی، یخ"
+    ]
+   },
+   {
+    "pid": 63956,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp",
+    "fields": [
+     "آیس‌تی چای سیاه زرشک",
+     "Barberry Iced Tea",
+     "متوسط: 297,000",
+     "محتویات: چای سیاه دم شده، شربت زرشک، یخ"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 37331,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CROISSANT-LAMIZ.webp",
+    "fields": [
+     "کراسان ساده",
+     "CROISSANT",
+     "168,800",
+     "محتویات: خمیر هزار لایه، کره نیوزلندی"
+    ]
+   },
+   {
+    "pid": 37332,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/PAIN-AU-CHOCOLAT-LAMIZ.webp",
+    "fields": [
+     "پن شکلاتی",
+     "PAIN AU CHOCOLAT",
+     "198,800",
+     "محتویات: خمیر هزار لایه، کره نیوزلندی، شکلات میله‌ای"
+    ]
+   },
+   {
+    "pid": 37333,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/GATA-LAMIZ.webp",
+    "fields": [
+     "گاتا",
+     "GATA",
+     "178,800",
+     "محتویات: نان شیرین، کره ارمنی"
+    ]
+   },
+   {
+    "pid": 37330,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/DANISH-LAMIZ.webp",
+    "fields": [
+     "دنیش کرم شیر",
+     "DANISH",
+     "128,800",
+     "محتویات: خمیر هزار لایه، مغز کرم شیری"
+    ]
+   },
+   {
+    "pid": 37880,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CHOCOLATE-TWIST-LAMIZ.webp",
+    "fields": [
+     "چاکلت توئیست",
+     "CHOCOLATE TWIST",
+     "188,800",
+     "محتویات: خمیر هزار لایه، کرم پتیسیر، شکلات چیپسی"
+    ]
+   },
+   {
+    "pid": 37850,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-GALETTE.webp",
+    "fields": [
+     "گَلِت بادام درختی لمیز",
+     "ALMOND GALETTE",
+     "218,800",
+     "محتویات: خمیر هزار لایه، مغز کرم بادام درختی"
+    ]
+   },
+   {
+    "pid": 54030,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/PEANUT-GALETTE.webp",
+    "fields": [
+     "گَلِت بادام زمینی لمیز",
+     "PEANUT GALETTE",
+     "188,800",
+     "محتویات: خمیر هزار لایه،کرم بادام زمینی"
+    ]
+   },
+   {
+    "pid": 67727,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/Apple-Galette.webp",
+    "fields": [
+     "گلت سیب لمیز",
+     "Apple Galette",
+     "218,800",
+     "محتویات: خمیر هزار لایه، کرم پتیسیر، سیب اسلایس شده"
+    ]
+   },
+   {
+    "pid": 70227,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/08/Apple-and-Blackberry-Galette.webp",
+    "fields": [
+     "گلت سیب و شاتوت لمیز",
+     "Apple and Blackberry Galette",
+     "248,800",
+     "محتویات: خمیر هزار لایه، کمپوت سیب و شاتوت، پودر دارچین"
+    ]
+   },
+   {
+    "pid": 70221,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/08/pastel-de-nata.webp",
+    "fields": [
+     "پستل دناتا",
+     "pastel de nata",
+     "118,800",
+     "محتویات: خمیرهزار لایه، کرم وانیلی"
+    ]
+   },
+   {
+    "pid": 70223,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/08/Pistachio-and-Strawberry-Tart.webp",
+    "fields": [
+     "تارت پسته و توت فرنگی لمیز",
+     "Pistachio And Strawberry Tart",
+     "288,800",
+     "محتویات: تارت شل وانیلی، مارمالاد توت فرنگی، کرم پسته، توت فرنگی تازه"
+    ]
+   },
+   {
+    "pid": 37865,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-TART-1.webp",
+    "fields": [
+     "تارت بادام لمیز",
+     "ALMOND TART",
+     "288,800",
+     "محتویات: تارت شل وانیلی، کرم بادام درختی، پرک بادام"
+    ]
+   },
+   {
+    "pid": 51754,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/RICORDAT-LAMIZ.webp",
+    "fields": [
+     "ریکوردات",
+     "RICORDAT",
+     "198,800",
+     "محتویات: خمیر هزار لایه، کرم کاراملی، شکر کاراملایز شده"
+    ]
+   },
+   {
+    "pid": 37895,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/CINNAMON-ROLL-LAMIZ.webp",
+    "fields": [
+     "رول دارچین",
+     "CINNAMON ROLL",
+     "198,800",
+     "محتویات: خمیر هزار لایه، کره‌ نیوزلندی، کرم پتیسیر، کشمش، دارچین"
+    ]
+   },
+   {
+    "pid": 60683,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/12/Chocolate-Vanilla-Loaf-Lamiz.webp",
+    "fields": [
+     "لوف وانیل شکلات لمیز",
+     "Chocolate Vanilla Loaf",
+     "108,800",
+     "محتویات: کیک اسفنجی وانیلی، شکلات، شیر"
+    ]
+   },
+   {
+    "pid": 37871,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/09/RAISIN-BARLEY-COOKIE-LAMIZ.webp",
+    "fields": [
+     "کوکی جو و کشمش",
+     "OATMEAL RAISIN COOKIE",
+     "118,800",
+     "محتویات: کشمش، شکر قهوه‌ای، جو، گردو، دارچین، شیره انگور"
+    ]
+   },
+   {
+    "pid": 57458,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/09/PEANUT-COOKIE-LAMIZ.webp",
+    "fields": [
+     "کوکی بادام زمینی لمیز",
+     "Peanut cookie",
+     "108,800",
+     "محتویات: کره بادام‌زمینی، آرد سفید، تخم‌مرغ، بیکینگ‌سودا، بادام‌زمینی، شکر سفید و قهوه‌ای"
+    ]
+   },
+   {
+    "pid": 37873,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-CHOCOLATE-COOKIE-LAMIZ.webp",
+    "fields": [
+     "کوکی شکلات بادام",
+     "ALMOND CHOCOLATE COOKIE",
+     "128,800",
+     "محتویات: کوکی به همراه تکه‌های شکلات و پرک بادام درختی"
+    ]
+   },
+   {
+    "pid": 37875,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/DARK-CHOCOLATE-COOKIE-LAMIZ.webp",
+    "fields": [
+     "کوکی دارک چاکلت",
+     "DARK CHOCOLATE COOKIE",
+     "128,800",
+     "محتویات: کوکی به همراه تکه‌های شکلات و شکر قهوه‌ای"
+    ]
+   },
+   {
+    "pid": 57461,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/09/KETO-COOKIE-LAMIZ.webp",
+    "fields": [
+     "کوکی کتو لمیز",
+     "KETO COOKIE",
+     "188,800",
+     "محتویات: آرد بادام، کره، استویا، تخم‌مرغ، پودر وانیل"
+    ]
+   },
+   {
+    "pid": 65899,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/01/Chocolate-Brownie.webp",
+    "fields": [
+     "کیک براونی لمیز",
+     "Chocolate Brownie",
+     "218,800",
+     "محتویات: شکلات شیری، تخم‌مرغ، آرد، پودر کاکائو، کره حیوانی"
+    ]
+   },
+   {
+    "pid": 67717,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/TIRAMISU-LAMIZ-1.webp",
+    "fields": [
+     "تیرامیسو لمیز",
+     "TIRAMISU LAMIZ",
+     "268,800",
+     "محتویات: بیسکوئیت لیدی فینگر، قهوه دمی، کرم ماسکارپونه، پودر کاکائو"
+    ]
+   },
+   {
+    "pid": 52419,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/03/caroot.webp",
+    "fields": [
+     "کیک هویج لمیز",
+     "Carrot cake",
+     "188,800",
+     "محتویات: كيک اسفنجى، گردو، دارچین، زنجبيل، جوز هندی، هويج، آیسینگ"
+    ]
+   },
+   {
+    "pid": 61850,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/02/SAN-SEBASTIAN-LAMIZ.webp",
+    "fields": [
+     "چیز کیک سن سباستین لمیز",
+     "San Sebastian CHEESECAKE lamiz",
+     "268,800",
+     "محتویات: چیز کیک بر پایه لبنیات پنیر، شیر، تخم مرغ، شکر، آرد، بافت لطیف پنیری، بدون کراست و لایه رویی برشته"
+    ]
+   },
+   {
+    "pid": 67725,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/02/Saint-Honore.webp",
+    "fields": [
+     "سنت اونوره لمیز",
+     "Saint Honoré",
+     "288,800",
+     "محتویات: خمیر هزار لایه، شوکت با فیلینگ کرم پیستری وانیلی، شانتی وانیل، شوکت کاراملی"
+    ]
+   },
+   {
+    "pid": 70244,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/08/Chocolate-Eclair.webp",
+    "fields": [
+     "اکلر شکلات لمیز",
+     "Chocolate Éclair",
+     "198,800",
+     "محتویات: سس شکلاتی، شکلات تلخ 83%، شکلات سفید، کره کاکائو، خمیر شو، کرم پتیسیر شکلاتی"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 56665,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/05/Avocado-Toast-With-Chili-Lamiz.webp",
+    "fields": [
+     "تست آووکادو چیلی",
+     "Avocado Toast with Chili",
+     "538,800",
+     "محتویات: نان خمیر ترش تست شده، پوره آووکادو (نمک و فلفل و روغن زیتون)، پنیر فتا، پرک چیلی"
+    ]
+   },
+   {
+    "pid": 56668,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/05/Avocado-Toast-with-Balsamic-Lamiz.webp",
+    "fields": [
+     "تست آووکادو و بالزامیک",
+     "Avocado Toast with Balsamic",
+     "538,800",
+     "محتویات: نان خمیر ترش تست شده، آووکادو اسلایس شده، پنیر خامه‌ای، روغن زیتون، نمک، فلفل، سس بالزامیک، گوجه اسلایس شده"
+    ]
+   },
+   {
+    "pid": 62889,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/05/Turkey-And-Mustard-Toast.webp",
+    "fields": [
+     "تست بوقلمون و خردل",
+     "Turkey and Mustard Toast",
+     "498,800",
+     "محتویات: نان خمیر ترش تست شده، پنیر فتا، سس خردل، روکولا، ژامبون بوقلمون"
+    ]
+   },
+   {
+    "pid": 62893,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/05/Pesto-Toast-Lamiz.webp",
+    "fields": [
+     "تست پستو",
+     "Pesto Toast",
+     "498,800",
+     "محتویات: نان خمیر ترش تست شده، سس پستو، پنیر موزارلا، گوجه خشک"
+    ]
+   },
+   {
+    "pid": 62891,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Toast-With-Cheese-And-Walnut-Lamiz.webp",
+    "fields": [
+     "تست پنیر و گردو",
+     "Toast with Cheese and Walnut",
+     "268,800",
+     "محتویات: نان خمیر ترش تست شده، پنیر خامه‌ای ویلی، مغز گردو، ریحان ایرانی"
+    ]
+   },
+   {
+    "pid": 62895,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Cheese-And-Jam-Toast-Lamiz.webp",
+    "fields": [
+     "تست پنیر و مربا",
+     "Toast with Cheese and Jam",
+     "268,800",
+     "محتویات: نان خمیر ترش تست شده، پنیر خامه‌ای ویلی، مربا آلبالو"
+    ]
+   },
+   {
+    "pid": 62936,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Banana-And-Chocolate-Toast-Lamiz.webp",
+    "fields": [
+     "تست موز و شکلات",
+     "Banana and Chocolate Toast",
+     "328,800",
+     "محتویات: نان خمیر ترش تست شده، موز، شکلات صبحانه"
+    ]
+   },
+   {
+    "pid": 62901,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Banana-And-Chocolate-Toast.webp",
+    "fields": [
+     "تست موز شکلات و کره بادام زمینی",
+     "Banana, Chocolate and Peanut Butter Toast",
+     "358,800",
+     "محتویات: نان خمیر ترش تست شده، کره بادام زمینی، شکلات صبحانه، موز"
+    ]
+   },
+   {
+    "pid": 62899,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Peanut-Butter-And-Jam-Toast-Lamiz.webp",
+    "fields": [
+     "تست کره بادام زمینی و مربا",
+     "Peanut Butter and Jam Toast",
+     "268,800",
+     "محتویات: نان خمیر ترش تست شده، کره بادام زمینی، مربا آلبالو"
+    ]
+   },
+   {
+    "pid": 56681,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/Peanut-Butter-And-Banana-Toast-Lamiz.webp",
+    "fields": [
+     "تست کره بادام زمینی و موز",
+     "Peanut Butter and Banana Toast",
+     "328,800",
+     "محتویات: نان خمیر ترش تست شده، کره بادام زمینی، موز، عسل"
+    ]
+   },
+   {
+    "pid": 56677,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/05/French-Toast-Lamiz.webp",
+    "fields": [
+     "تست فرانسوی",
+     "french toast",
+     "208,800",
+     "محتویات: نان بریوش پخته شده با رویال، بستنی وانیلی، مربا، عسل، کارامل"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 63220,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Avocado-With-Chili-Croissant-Lamiz.webp",
+    "fields": [
+     "کراسان آووکادو و چیلی",
+     "Avocado with Chili croissant",
+     "538,800",
+     "محتویات: پنیر فتا، آووکادو، روغن زیتون، چیلی، نمک، فلفل سیاه"
+    ]
+   },
+   {
+    "pid": 63139,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/Avocado-with-Balsamic-Croissants-Lamiz.webp",
+    "fields": [
+     "کراسان آووکادو و بالزامیک",
+     "Avocado croissants with balsamic",
+     "538,800",
+     "محتویات: پنیر خامه‌ای، گوجه، آووکادو، بالزامیک، روغن زیتون، نمک، فلفل سیاه"
+    ]
+   },
+   {
+    "pid": 36738,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/TURKEY-CROISSANT.webp",
+    "fields": [
+     "کراسان بوقلمون و خردل",
+     "Turkey and Mustard Croissant",
+     "498,800",
+     "محتویات: پنیر فتا، ژامبون سینه بوقلمون ۹۸%، روکولا، سس خردل، انجیر"
+    ]
+   },
+   {
+    "pid": 36739,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/PESTO-CROISSANT-SANDWICH-LAMIZ.webp",
+    "fields": [
+     "کراسان پستو",
+     "Pesto Croissant",
+     "498,800",
+     "محتویات: سس پستو، گوجه خشک، پنیر موزارلا"
+    ]
+   },
+   {
+    "pid": 51825,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/PEANUT-BUTTER-JAM-CROISSANT-LAMIZ.webp",
+    "fields": [
+     "کراسان کره بادام زمینی و مربا",
+     "Peanut butter and jam croissants",
+     "268,800",
+     "محتویات: کره بادام زمینی، مربا (به انتخاب مشتری)"
+    ]
+   },
+   {
+    "pid": 51844,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/06/Banana-Chocolate-and-Peanut-Butter-Croissant-Lamiz.webp",
+    "fields": [
+     "کراسان موز شکلات",
+     "chocolate banana croissant",
+     "328,800",
+     "محتویات: موز اسلایس شده، سس شکلات، پرک بادام"
+    ]
+   },
+   {
+    "pid": 51848,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/WALNUT-CHEESE-CROISSANT-LAMIZ.webp",
+    "fields": [
+     "کراسان پنیر گردو",
+     "Walnut cheese croissant",
+     "268,800",
+     "محتویات: پنیر خامه ای، گردو، ریحان تازه"
+    ]
+   },
+   {
+    "pid": 51851,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/CHEESE-JAM-CROISSANT-LAMIZ.webp",
+    "fields": [
+     "کراسان پنیر و مربا",
+     "Cheese and jam croissants",
+     "268,800",
+     "محتویات: پنیر خامه‌ای، مربا (به انتخاب مشتری)"
+    ]
+   },
+   {
+    "pid": 63224,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/06/Peanut-Butter-Banana-Croissant-Lamiz.webp",
+    "fields": [
+     "کراسان کره بادام زمینی و موز",
+     "Peanut Butter and Banana croissant",
+     "328,800",
+     "محتویات: کره بادام زمینی، موز، عسل"
+    ]
+   },
+   {
+    "pid": 63222,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2024/02/chocolate-banana-croissant-Lamiz.webp",
+    "fields": [
+     "کراسان موز شکلات و کره بادام زمینی",
+     "Banana, Chocolate and Peanut Butter Croissant",
+     "358,800",
+     "محتویات: شکلات صبحانه، موز، کره بادام زمینی، پرک بادام"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 63908,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Coffee-Popsicle-Lamiz.webp",
+    "fields": [
+     "پاپسیکل قهوه",
+     "Coffee Popsicle",
+     "متوسط: 228,800",
+     "محتویات: اسپرسو،شیر، خامه، شکر، پودر وانیل، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63910,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Lime-Popsicle-Lamiz.webp",
+    "fields": [
+     "پاپسیکل یخی لیمو",
+     "Lime Popsicle",
+     "متوسط: 188,800",
+     "محتویات: آب، سیروپ لیموناد، آب لیمو تازه، زست لیمو، اسید سیتریک، شکر، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63912,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Cherry-Popsicle-Lamiz.webp",
+    "fields": [
+     "پاپسیکل یخی آلبالو",
+     "cherry Popsicle",
+     "متوسط: 188,800",
+     "محتویات: آب، سیروپ آلبالو، اسید سیتریک، شکر، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63914,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Persian-Icecream-Lamiz.webp",
+    "fields": [
+     "پاپسیکل پرشین",
+     "Persian IceCream",
+     "متوسط: 228,800",
+     "محتویات: خامه، شیر، شکر، کرم پسته، سیروپ زعفران، گلاب، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63916,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Matcha-Icecream-Lamiz.webp",
+    "fields": [
+     "پاپسیکل ماچا",
+     "Matcha IceCream",
+     "متوسط: 228,800",
+     "محتویات: خامه، شیر، شکر، پودر ماچا، پودر وانیل، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63918,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Masala-Icecream-lamiz.webp",
+    "fields": [
+     "پاپسیکل ماسالا",
+     "Masala Icecream",
+     "متوسط: 228,800",
+     "محتویات: خامه، شیر، شکر، پودر ماسالا، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 63920,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Chocolate-Icecream-Lamiz.webp",
+    "fields": [
+     "پاپسیکل شکلات",
+     "Chocolate IceCream",
+     "متوسط: 228,800",
+     "محتویات: خامه، شیر، شکر، شکلات فندقی دارک، پودر وانیل، پودر کاکائو، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 64982,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2025/07/Masala-Icecream-lamiz.webp",
+    "fields": [
+     "پاپسیکل پروتئین بادام زمینی",
+     "Peanut Butter Protein Ice Cream",
+     "متوسط: 228,800",
+     "محتویات: شیر بادام، پودر پروتئین وی شکلاتی کاله، کره بادام زمینی، موز، شیرین کننده، قوام دهنده"
+    ]
+   },
+   {
+    "pid": 69822,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2026/08/23220.webp",
+    "fields": [
+     "پاپ کراسان",
+     "Pop Croissant",
+     "متوسط: 337,000",
+     "محتویات: کراسان، پاپسیکل (به انتخاب مشتری)"
+    ]
+   }
+  ]
+ },
+ {
+  "label": null,
+  "items": [
+   {
+    "pid": 36753,
+    "img": null,
+    "fields": [
+     "عسل",
+     "HONEY",
+     "30,000"
+    ]
+   },
+   {
+    "pid": 36754,
+    "img": null,
+    "fields": [
+     "قهوه بدون کافئین",
+     "DECAF COFFEE",
+     "160,000"
+    ]
+   },
+   {
+    "pid": 36755,
+    "img": null,
+    "fields": [
+     "خامه",
+     "Whipped CREAM",
+     "60,000"
+    ]
+   },
+   {
+    "pid": 36756,
+    "img": null,
+    "fields": [
+     "طعم دهنده‌",
+     "FLAVORED SYRUP",
+     "50,000"
+    ]
+   },
+   {
+    "pid": 36757,
+    "img": null,
+    "fields": [
+     "شات اسپرسو اضافه",
+     "EXTRA ESPRESSO SHOT",
+     "160,000"
+    ]
+   },
+   {
+    "pid": 52489,
+    "img": null,
+    "fields": [
+     "شات شیر بادام اضافه",
+     "Almond milk shot",
+     "30,000"
+    ]
+   },
+   {
+    "pid": 52491,
+    "img": null,
+    "fields": [
+     "شیر بادام کوچک",
+     "Small almond milk",
+     "90,000"
+    ]
+   },
+   {
+    "pid": 52493,
+    "img": null,
+    "fields": [
+     "شیر بادام متوسط",
+     "medium almond milk",
+     "120,000"
+    ]
+   },
+   {
+    "pid": 52499,
+    "img": null,
+    "fields": [
+     "شیر بادام بزرگ",
+     "Big almond milk",
+     "150,000"
+    ]
+   },
+   {
+    "pid": 54928,
+    "img": null,
+    "fields": [
+     "موز",
+     "banana",
+     "80,000"
+    ]
+   },
+   {
+    "pid": 54930,
+    "img": null,
+    "fields": [
+     "کره بادام زمینی",
+     "peanut butter",
+     "80,000"
+    ]
+   },
+   {
+    "pid": 54932,
+    "img": null,
+    "fields": [
+     "پودر پروتئین وی کاله",
+     "Protein",
+     "185,000"
+    ]
+   },
+   {
+    "pid": 54934,
+    "img": null,
+    "fields": [
+     "ژامبون",
+     "jambon",
+     "120,000"
+    ]
+   },
+   {
+    "pid": 64523,
+    "img": null,
+    "fields": [
+     "پودر کلاژن",
+     "Collagen",
+     "188,800"
+    ]
+   },
+   {
+    "pid": 64999,
+    "img": null,
+    "fields": [
+     "پروتئین وی اپوویتال اضافه",
+     "Apovital Protein",
+     "255,000"
+    ]
+   },
+   {
+    "pid": 65325,
+    "img": null,
+    "fields": [
+     "پروتئین وی اپوویتال جایگزین",
+     "With Apovital Protein",
+     "178,800"
+    ]
+   },
+   {
+    "pid": 65328,
+    "img": null,
+    "fields": [
+     "اسکوپ بستنی اضافه",
+     "Extra Ice Cream Scoop",
+     "50,000"
+    ]
+   },
+   {
+    "pid": 65330,
+    "img": null,
+    "fields": [
+     "چیا‌سید",
+     "Chia Seeds",
+     "25,000"
+    ]
+   },
+   {
+    "pid": 65332,
+    "img": null,
+    "fields": [
+     "گرانولا",
+     "Granola",
+     "80,000"
+    ]
+   },
+   {
+    "pid": 67990,
+    "img": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-logo.webp",
+    "fields": [
+     "سیروپ عسل",
+     "HONEY SYRUP",
+     "50,000"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Lamiz Coffee</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F6F4F1">
+<meta name="robots" content="noindex,nofollow">
+<style>html,body{margin:0;height:100%;background:#F6F4F1;color:#111113;display:grid;place-items:center;font:400 15px/1.6 -apple-system,BlinkMacSystemFont,system-ui,sans-serif}a{color:#C2410C}</style>
+<script>
+  // Hash routing lives at the root; anything else bounces home and keeps the path as a
+  // hash, so a shared /menu link still lands on the menu.
+  var p = location.pathname.replace(/^\/lamiz\/?/, "/").replace(/\/+$/, "") || "/";
+  location.replace(location.pathname.indexOf("/lamiz") === 0 ? "/lamiz/#" + p : "/#" + p);
+</script>
+<p>Taking you to <a href="./">Lamiz Coffee</a>…</p>

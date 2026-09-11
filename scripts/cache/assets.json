@@ -1,0 +1,1008 @@
+{
+ "items": {
+  "https://lamizcoffee.com/wp-content/uploads/2021/06/Avocado-Cocoa.webp": "assets/items/avocado-cocoa.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2021/06/Avocado-Smoothie.webp": "assets/items/avocado-smoothie.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2022/04/V60.webp": "assets/items/v60.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2022/04/clever.webp": "assets/items/clever.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/05/Avocado-Toast-With-Chili-Lamiz.webp": "assets/items/avocado-toast-with-chili-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/05/Avocado-Toast-with-Balsamic-Lamiz.webp": "assets/items/avocado-toast-with-balsamic-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/05/Pesto-Toast-Lamiz.webp": "assets/items/pesto-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/05/Protein-Coffee.webp": "assets/items/protein-coffee.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/05/Turkey-And-Mustard-Toast.webp": "assets/items/turkey-and-mustard-toast.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-CHOCOLATE-COOKIE-LAMIZ.webp": "assets/items/almond-chocolate-cookie-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-GALETTE.webp": "assets/items/almond-galette.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ALMOND-TART-1.webp": "assets/items/almond-tart-1.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/AMERICANO-LAMIZ.webp": "assets/items/americano-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/Apple-Galette.webp": "assets/items/apple-galette.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/Avocado-with-Balsamic-Croissants-Lamiz.webp": "assets/items/avocado-with-balsamic-croissants-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/BLUE-SPIRULINA-BOWL-LAMIZ.webp": "assets/items/blue-spirulina-bowl-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/BULLETPROOF-COFFEE-BUTTER-LAMIZ.webp": "assets/items/bulletproof-coffee-butter-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CAFE-GELATO-LAMIZ.webp": "assets/items/cafe-gelato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPACHILLO-LAMIZ.webp": "assets/items/cappachillo-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPUCCINO-LAMIZ.webp": "assets/items/cappuccino-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CARAMEL-MACCHIATO-LAMIZ.webp": "assets/items/caramel-macchiato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CHAI-LATTE-LAMIZ.webp": "assets/items/chai-latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CHOCOLATE-TWIST-LAMIZ.webp": "assets/items/chocolate-twist-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CHOCOLATECHILLO-LAMIZ.webp": "assets/items/chocolatechillo-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CINNAMON-ROLL-LAMIZ.webp": "assets/items/cinnamon-roll-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CORTADO-LAMIZ.webp": "assets/items/cortado-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/CROISSANT-LAMIZ.webp": "assets/items/croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/DAILY-BREW-LAMIZ.webp": "assets/items/daily-brew-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/DANISH-LAMIZ.webp": "assets/items/danish-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/DARK-CHOCOLATE-COOKIE-LAMIZ.webp": "assets/items/dark-chocolate-cookie-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-AFFOGATO-LAMIZ.webp": "assets/items/espresso-affogato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-CON-PANNA-LAMIZ.webp": "assets/items/espresso-con-panna-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp": "assets/items/espresso-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-MACCHIATO-LAMIZ.webp": "assets/items/espresso-macchiato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/FRUITCHILLO-LAMIZ.webp": "assets/items/fruitchillo-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/GATA-LAMIZ.webp": "assets/items/gata-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/GREEN-SUPER-MATCHA-BOWL-LAMIZ.webp": "assets/items/green-super-matcha-bowl-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/HOT-CHOCOLATE​-LAMIZ.webp": "assets/items/hot-chocolate-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-AMERICANO-LAMIZ.webp": "assets/items/iced-americano-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CAPPUCCINO-LAMIZ.webp": "assets/items/iced-cappuccino-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CARAMEL-MACCHIATO-LAMIZ.webp": "assets/items/iced-caramel-macchiato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CHOCOLATE-LAMIZ.webp": "assets/items/iced-chocolate-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-LATTE-LAMIZ.webp": "assets/items/iced-latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MATCHA-LATTE-LAMIZ.webp": "assets/items/iced-matcha-latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MOCHA-LAMIZ.webp": "assets/items/iced-mocha-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/LATTE-LAMIZ.webp": "assets/items/latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-logo.webp": "assets/items/lamiz-logo.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MASALA-SHAKE.webp": "assets/items/masala-shake.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHA-LATTE-LAMIZ.webp": "assets/items/matcha-latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHA-TEA-LAMIZ.webp": "assets/items/matcha-tea-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHACHILLO-LAMIZ.webp": "assets/items/matchachillo-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MATCHAGATO-LAMIZ.webp": "assets/items/matchagato-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MOCHA-LAMIZ.webp": "assets/items/mocha-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MOCHACHILLO-LAMIZ.webp": "assets/items/mochachillo-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/MORINGA-PROTEIN-SHAKE-LAMIZ.webp": "assets/items/moringa-protein-shake-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/PAIN-AU-CHOCOLAT-LAMIZ.webp": "assets/items/pain-au-chocolat-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/PEANUT-BUTTER-CHOCOLATE-PROTEIN-SHAKE-1.webp": "assets/items/peanut-butter-chocolate-protein-shake-1.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/PEANUT-GALETTE.webp": "assets/items/peanut-galette.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/PESTO-CROISSANT-SANDWICH-LAMIZ.webp": "assets/items/pesto-croissant-sandwich-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/STEAMED-MILK-LAMIZ​.webp": "assets/items/steamed-milk-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/TIRAMISU-LAMIZ-1.webp": "assets/items/tiramisu-lamiz-1.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/TURKEY-CROISSANT.webp": "assets/items/turkey-croissant.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/TURMERIC-LATTE-LAMIZ​.webp": "assets/items/turmeric-latte-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2023/06/VEGAN-BULLETPROOF-COFFEE-COCONUT-OIL-LAMIZ.webp": "assets/items/vegan-bulletproof-coffee-coconut-oil-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/BLACK-TEA-LAMIZ.webp": "assets/items/black-tea-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/CHEESE-JAM-CROISSANT-LAMIZ.webp": "assets/items/cheese-jam-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/PEANUT-BUTTER-JAM-CROISSANT-LAMIZ.webp": "assets/items/peanut-butter-jam-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/RICORDAT-LAMIZ.webp": "assets/items/ricordat-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/WALNUT-CHEESE-CROISSANT-LAMIZ.webp": "assets/items/walnut-cheese-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/berry-sour-sip.webp": "assets/items/berry-sour-sip.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/chocolate-banana-croissant-Lamiz.webp": "assets/items/chocolate-banana-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/green-tea-1.webp": "assets/items/green-tea-1.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/tranquili-tea.webp": "assets/items/tranquili-tea.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/02/zen-garden.webp": "assets/items/zen-garden.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/03/caroot.webp": "assets/items/caroot.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/09/FRUITCHILLO-WITH-ICE-CREAM-LAMIZ.webp": "assets/items/fruitchillo-with-ice-cream-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/09/KETO-COOKIE-LAMIZ.webp": "assets/items/keto-cookie-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/09/PEANUT-COOKIE-LAMIZ.webp": "assets/items/peanut-cookie-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/09/RAISIN-BARLEY-COOKIE-LAMIZ.webp": "assets/items/raisin-barley-cookie-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2024/12/Chocolate-Vanilla-Loaf-Lamiz.webp": "assets/items/chocolate-vanilla-loaf-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/02/SAN-SEBASTIAN-LAMIZ.webp": "assets/items/san-sebastian-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/03/PERSIAN-CHILLO.webp": "assets/items/persian-chillo.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/03/PERSIAN-LATTE.webp": "assets/items/persian-latte.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Banana-And-Chocolate-Toast-Lamiz.webp": "assets/items/banana-and-chocolate-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Banana-And-Chocolate-Toast.webp": "assets/items/banana-and-chocolate-toast.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Cheese-And-Jam-Toast-Lamiz.webp": "assets/items/cheese-and-jam-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/French-Toast-Lamiz.webp": "assets/items/french-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Peanut-Butter-And-Banana-Toast-Lamiz.webp": "assets/items/peanut-butter-and-banana-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Peanut-Butter-And-Jam-Toast-Lamiz.webp": "assets/items/peanut-butter-and-jam-toast-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/05/Toast-With-Cheese-And-Walnut-Lamiz.webp": "assets/items/toast-with-cheese-and-walnut-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/06/Banana-Chocolate-and-Peanut-Butter-Croissant-Lamiz.webp": "assets/items/banana-chocolate-and-peanut-butter-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/06/Peanut-Butter-Banana-Croissant-Lamiz.webp": "assets/items/peanut-butter-banana-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Avocado-With-Chili-Croissant-Lamiz.webp": "assets/items/avocado-with-chili-croissant-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Cherry-Popsicle-Lamiz.webp": "assets/items/cherry-popsicle-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Chocolate-Icecream-Lamiz.webp": "assets/items/chocolate-icecream-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Coffee-Popsicle-Lamiz.webp": "assets/items/coffee-popsicle-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Lime-Popsicle-Lamiz.webp": "assets/items/lime-popsicle-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Masala-Icecream-lamiz.webp": "assets/items/masala-icecream-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Matcha-Icecream-Lamiz.webp": "assets/items/matcha-icecream-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Persian-Icecream-Lamiz.webp": "assets/items/persian-icecream-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/07/Pineapple-Basil-Slushy-LAmiz.webp": "assets/items/pineapple-basil-slushy-lamiz.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/09/Black-Iced-Tea.webp": "assets/items/black-iced-tea.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/09/Green-Iced-Tea.webp": "assets/items/green-iced-tea.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2025/09/Wellness-Smoothie.webp": "assets/items/wellness-smoothie.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/01/Chocolate-Brownie.webp": "assets/items/chocolate-brownie.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/01/Fizzy-Berry-1.webp": "assets/items/fizzy-berry-1.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/01/Fizzy-Mango.webp": "assets/items/fizzy-mango.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/01/Peanut-Butter-Biscuit-Shake.webp": "assets/items/peanut-butter-biscuit-shake.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/02/Saint-Honore.webp": "assets/items/saint-honore.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/05/sleepy-duo.webp": "assets/items/sleepy-duo.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/05/vitali-tea.webp": "assets/items/vitali-tea.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/08/23220.webp": "assets/items/23220.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/08/Apple-and-Blackberry-Galette.webp": "assets/items/apple-and-blackberry-galette.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/08/Chocolate-Eclair.webp": "assets/items/chocolate-eclair.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/08/Pistachio-and-Strawberry-Tart.webp": "assets/items/pistachio-and-strawberry-tart.webp",
+  "https://lamizcoffee.com/wp-content/uploads/2026/08/pastel-de-nata.webp": "assets/items/pastel-de-nata.webp"
+ },
+ "branches": {
+  "4rahvaliasr": {
+   "cover": "assets/branches/4rahvaliasr-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/4rahvaliasr-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/4rahvaliasr-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/4rahvaliasr-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/4rahvaliasr-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "ahvaz": {
+   "cover": "assets/branches/ahvaz-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/ahvaz-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ahvaz-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ahvaz-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ahvaz-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "ajudaniyeh": {
+   "cover": "assets/branches/ajudaniyeh-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/ajudaniyeh-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ajudaniyeh-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ajudaniyeh-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "argentina": {
+   "cover": "assets/branches/argentina-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/argentina-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/argentina-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/argentina-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "babolsar": {
+   "cover": "assets/branches/babolsar-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/babolsar-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/babolsar-2.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "bagh-ferdows": {
+   "cover": "assets/branches/bagh-ferdows-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/bagh-ferdows-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/bagh-ferdows-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/bagh-ferdows-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/bagh-ferdows-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "enghelab": {
+   "cover": "assets/branches/enghelab-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/enghelab-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/enghelab-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/enghelab-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/enghelab-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "fakharmoghadam": {
+   "cover": "assets/branches/fakharmoghadam-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/fakharmoghadam-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fakharmoghadam-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fakharmoghadam-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fakharmoghadam-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "farmanieh": {
+   "cover": "assets/branches/farmanieh-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/farmanieh-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/farmanieh-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/farmanieh-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/farmanieh-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "fatemi": {
+   "cover": "assets/branches/fatemi-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/fatemi-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fatemi-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fatemi-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/fatemi-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "ferdows-boulevard": {
+   "cover": "assets/branches/ferdows-boulevard-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/ferdows-boulevard-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ferdows-boulevard-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ferdows-boulevard-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/ferdows-boulevard-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "gisha": {
+   "cover": "assets/branches/gisha-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/gisha-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/gisha-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/gisha-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/gisha-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "golestan": {
+   "cover": "assets/branches/golestan-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/golestan-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/golestan-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/golestan-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/golestan-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "haft-hoz": {
+   "cover": "assets/branches/haft-hoz-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/haft-hoz-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/haft-hoz-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/haft-hoz-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/haft-hoz-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "heravi": {
+   "cover": "assets/branches/heravi-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/heravi-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/heravi-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/heravi-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/heravi-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "iranmal": {
+   "cover": "assets/branches/iranmal-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/iranmal-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/iranmal-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/iranmal-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/iranmal-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "isfahan": {
+   "cover": "assets/branches/isfahan-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/isfahan-1.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "izadshahr": {
+   "cover": "assets/branches/izadshahr-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/izadshahr-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/izadshahr-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/izadshahr-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "jam": {
+   "cover": "assets/branches/jam-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/jam-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/jam-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/jam-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/jam-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "jordan": {
+   "cover": "assets/branches/jordan-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/jordan-1.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "jordan-atefi-sharghi": {
+   "cover": "assets/branches/jordan-atefi-sharghi-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/jordan-atefi-sharghi-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/jordan-atefi-sharghi-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/jordan-atefi-sharghi-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "karaj": {
+   "cover": "assets/branches/karaj-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/karaj-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/karaj-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/karaj-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/karaj-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "kish": {
+   "cover": "assets/branches/kish-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/kish-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/kish-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/kish-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "kish-telecabin": {
+   "cover": "assets/branches/kish-telecabin-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/kish-telecabin-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/kish-telecabin-2.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "lavasan": {
+   "cover": "assets/branches/lavasan-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/lavasan-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/lavasan-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/lavasan-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "mehr-o-mah": {
+   "cover": "assets/branches/mehr-o-mah-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/mehr-o-mah-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/mehr-o-mah-2.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "mehrshahr": {
+   "cover": "assets/branches/mehrshahr-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/mehrshahr-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/mehrshahr-2.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "mirdamad": {
+   "cover": "assets/branches/mirdamad-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/mirdamad-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/mirdamad-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/mirdamad-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/mirdamad-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "modireat-bridge": {
+   "cover": "assets/branches/modireat-bridge-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/modireat-bridge-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/modireat-bridge-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/modireat-bridge-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/modireat-bridge-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "motahari": {
+   "cover": "assets/branches/motahari-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/motahari-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/motahari-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/motahari-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/motahari-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "motel-ghoo": {
+   "cover": "assets/branches/motel-ghoo-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/motel-ghoo-1.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "pasdaran": {
+   "cover": "assets/branches/pasdaran-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/pasdaran-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/pasdaran-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/pasdaran-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/pasdaran-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "paydarfard": {
+   "cover": "assets/branches/paydarfard-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/paydarfard-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/paydarfard-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/paydarfard-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/paydarfard-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "pol-romi": {
+   "cover": "assets/branches/pol-romi-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/pol-romi-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/pol-romi-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/pol-romi-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "royan": {
+   "cover": "assets/branches/royan-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/royan-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/royan-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/royan-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/royan-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "saadatabad": {
+   "cover": "assets/branches/saadatabad-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/saadatabad-1.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "shahrak-e-gharb": {
+   "cover": "assets/branches/shahrak-e-gharb-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/shahrak-e-gharb-1.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "shiraz": {
+   "cover": "assets/branches/shiraz-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/shiraz-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/shiraz-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/shiraz-3.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "tajrish-monin": {
+   "cover": "assets/branches/tajrish-monin-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/tajrish-monin-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/tajrish-monin-2.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "vanak": {
+   "cover": "assets/branches/vanak-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/vanak-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/vanak-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/vanak-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/vanak-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  },
+  "yousef-abad": {
+   "cover": "assets/branches/yousef-abad-cover.webp",
+   "photos": [
+    {
+     "src": "assets/branches/yousef-abad-1.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/yousef-abad-2.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/yousef-abad-3.webp",
+     "w": 1200,
+     "h": 600
+    },
+    {
+     "src": "assets/branches/yousef-abad-4.webp",
+     "w": 1200,
+     "h": 600
+    }
+   ]
+  }
+ },
+ "photos": [
+  {
+   "src": "assets/photos/bakery-flatlay.webp",
+   "w": 914,
+   "h": 1264,
+   "key": "flatlay"
+  },
+  {
+   "src": "assets/photos/bakery-tart.webp",
+   "w": 848,
+   "h": 1246,
+   "key": "tart"
+  },
+  {
+   "src": "assets/photos/bakery-carrot.webp",
+   "w": 848,
+   "h": 1258,
+   "key": "carrot"
+  },
+  {
+   "src": "assets/photos/bakery-chocolate.webp",
+   "w": 828,
+   "h": 1260,
+   "key": "chocolate"
+  }
+ ]
+}
