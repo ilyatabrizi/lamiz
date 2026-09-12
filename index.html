@@ -25,7 +25,7 @@
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/dmserif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/video/poster.webp" as="image" fetchpriority="high">
-<link rel="stylesheet" href="css/app.css?v=8051cffd1d">
+<link rel="stylesheet" href="css/app.css?v=02ff5b799f">
 <script>
   // Before anything paints: the theme the customer chose (or the phone's), whether this
   // is a reload (the logo then shows only briefly), and the scroll offset an installed
@@ -80,7 +80,7 @@
 <link rel="modulepreload" href="js/views/profile-edit.js">
 <link rel="modulepreload" href="js/views/profile.js">
 <!-- preload:end -->
-<script type="module" src="js/app.js?v=8051cffd1d"></script>
+<script type="module" src="js/app.js?v=02ff5b799f"></script>
 </head>
 <body>
 
@@ -124,13 +124,15 @@
 <div class="dockbar" id="dockbar">
   <nav id="tabs" class="tabs" aria-label="Primary">
     <span class="tabs-lens" id="tabs-lens" aria-hidden="true"></span>
-    <a class="tab" data-tab="home" href="#/"><span class="tab-ico"></span><span class="tab-l">Home</span></a>
-    <a class="tab" data-tab="menu" href="#/menu"><span class="tab-ico"></span><span class="tab-l">Menu</span></a>
-    <a class="tab" data-tab="checkin" href="#/checkin"><span class="tab-ico"></span><span class="tab-l">Check in</span></a>
-    <a class="tab" data-tab="branches" href="#/branches"><span class="tab-ico"></span><span class="tab-l">Branches</span></a>
-    <a class="tab" data-tab="profile" href="#/profile"><span class="tab-ico"></span><span class="tab-l">Profile</span></a>
+    <div class="tabs-row" id="tabs-row">
+      <a class="tab" data-tab="home" href="#/" draggable="false"><span class="tab-ico"></span><span class="tab-l">Home</span></a>
+      <a class="tab" data-tab="menu" href="#/menu" draggable="false"><span class="tab-ico"></span><span class="tab-l">Menu</span></a>
+      <a class="tab" data-tab="checkin" href="#/checkin" draggable="false"><span class="tab-ico"></span><span class="tab-l">Check in</span></a>
+      <a class="tab" data-tab="branches" href="#/branches" draggable="false"><span class="tab-ico"></span><span class="tab-l">Branches</span></a>
+      <a class="tab" data-tab="profile" href="#/profile" draggable="false"><span class="tab-ico"></span><span class="tab-l">Profile</span></a>
+    </div>
   </nav>
-  <a class="bagbtn" id="bagbtn" href="#/bag" aria-label="Bag, empty">
+  <a class="bagbtn" id="bagbtn" href="#/bag" aria-label="Bag, empty" draggable="false">
     <span id="bag-ico"></span>
     <span class="bag-badge" id="bag-badge" aria-hidden="true">0</span>
   </a>

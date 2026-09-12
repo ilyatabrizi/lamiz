@@ -71,7 +71,6 @@ export const ORDER = {
 export const CHECKIN = {
   holdMinutes: 60,                          // one tap holds your place for an hour
   extendMinutes: 60,
-  bulbs: 20,                                // the marquee L: one bulb per three minutes
   nearMeters: 250,                          // "looks like you're at …"
   // Presence is device-local until an endpoint is set. Point this at a shared room
   // service and the same calls go there — see README → Check-in.

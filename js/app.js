@@ -11,7 +11,7 @@ import { route, startRouter, path } from "./router.js";
 import { bagCount, subscribe, prefs, seedSample, myBranch, photo, quote } from "./store.js";
 import * as presence from "./presence.js";
 import { runBoot } from "./boot.js";
-import { mountTabs } from "./tabs.js";
+import { initTabs, paintTabs, expandTabs, setTabFace, tabIcons } from "./tabs.js";
 import { wireAdds, wireImages, observeReveals, closeSheet } from "./ui.js";
 import { replay } from "./motion.js";
 
@@ -54,15 +54,10 @@ back.innerHTML = icon("chevronL");
 $("#bag-ico").innerHTML = icon("bag");
 $("#acc-chev").innerHTML = icon("chevron");
 
-const TABS = ["home", "menu", "checkin", "branches", "profile"];
-nav.querySelectorAll(".tab").forEach((t) => {
-  t._icons = [icon(t.dataset.tab), icon(t.dataset.tab + "Fill")];
-  t.querySelector(".tab-ico").innerHTML = t._icons[0];
-});
-const tabs = mountTabs({ nav, lens: $("#tabs-lens"), onPick: (i, t) => { location.hash = t.getAttribute("href"); } });
+initTabs();
 
 const rootOf = (p) => "/" + (p.split("/")[1] || "");
-const TAB_FOR = { "/": 0, "/menu": 1, "/item": 1, "/checkin": 2, "/branches": 3, "/branch": 3, "/profile": 4 };
+const TAB_FOR = { "/": "home", "/menu": "menu", "/item": "menu", "/checkin": "checkin", "/branches": "branches", "/branch": "branches", "/profile": "profile" };
 const TITLES = { "/menu": "Menu", "/item": "Menu", "/bag": "Bag", "/order": "Your order", "/checkin": "Check in", "/branches": "Branches", "/profile": "Profile", "/profile/edit": "Edit profile" };
 // screens one level down get a back button instead of the logo
 const pushed = (p) => ["/order", "/branch"].includes(rootOf(p)) || p === "/profile/edit";
@@ -90,18 +85,12 @@ function paintBag() {
 subscribe(paintBag);
 
 /* ------------------------------------------------- your face on the Profile tab */
-const youTab = nav.querySelector('[data-tab="profile"]');
 let shownPhoto = null;
 function paintYou() {
   const ph = photo();
   if (ph === shownPhoto) return;
   shownPhoto = ph;
-  if (ph) {
-    const face = `<span class="tab-av"><img src="${ph}" alt=""></span>`;
-    youTab._icons = [face, face];
-  } else youTab._icons = [icon("profile"), icon("profileFill")];
-  youTab.querySelector(".tab-ico").innerHTML = youTab._icons[youTab.getAttribute("aria-current") === "page" ? 1 : 0];
-  youTab.querySelector(".tab-ico").dataset.state = "";
+  setTabFace("profile", ph ? `<span class="tab-av"><img src="${ph}" alt=""></span>` : tabIcons("profile"));
 }
 subscribe(paintYou);
 paintYou();
@@ -157,8 +146,8 @@ document.addEventListener("view:rendered", (e) => {
   const p = e.detail.path;
   const screen = e.detail.screen;
   closeSheet();
-  const t = TAB_FOR[rootOf(p)];
-  tabs.select(t ?? -1);
+  paintTabs(TAB_FOR[rootOf(p)] ?? null);
+  expandTabs();                                  // going anywhere opens a folded bar
   bagbtn.setAttribute("aria-current", rootOf(p) === "/bag" ? "page" : "false");
   paintBag();
   paintChip();
@@ -186,5 +175,3 @@ runBoot(startRouter());
 if ("serviceWorker" in navigator && !["localhost", "127.0.0.1"].includes(location.hostname) && !location.search.includes("nosw")) {
   addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 }
-
-export { TABS };

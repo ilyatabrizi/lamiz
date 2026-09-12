@@ -14,7 +14,7 @@
 // the page keeps the network it started with — claiming mid-flight hands the new
 // worker every in-flight image request, and they fail.
 
-const VERSION = "lamiz-8051cffd1d";
+const VERSION = "lamiz-02ff5b799f";
 const DEV = ["localhost", "127.0.0.1"].includes(location.hostname);
 const MARKER = "./__installed__";
 

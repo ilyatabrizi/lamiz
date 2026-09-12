@@ -1,83 +1,56 @@
-// Check in. Their Tajrish branch hangs a light-up L on its brick wall; here that L is
-// the button. Tap it and the bulbs come on, top of the stem to the end of the foot —
-// you're in for an hour, and the bulbs go out one by one as the hour runs down (one
-// per three minutes). Below it, everyone else who is in: first names (or initials, or
-// nothing — each person chooses), when they arrived, and a wave.
+// Check in. One tap when you sit down: the disc fills, your hour starts, and you join
+// the room below. Which Lamiz you are in is chosen above; how you appear to everyone
+// else is set in Profile. "Check out" leaves early — otherwise the hour lets go by
+// itself, so no list can go stale in a way that embarrasses anybody.
 
 import { CHECKIN } from "../config.js";
-import { BULBS, BULB_R, MARK_VIEWBOX, MARK_PATH } from "../brand.js";
 import { branchById } from "../data.js";
 import { icon } from "../icons.js";
-import { esc, ago, ordinal } from "../util.js";
+import { esc, ago, ordinal, clamp } from "../util.js";
 import { myBranch, setMyBranch, shownName, myHue, photo, profile, subscribe } from "../store.js";
 import * as presence from "../presence.js";
 import * as geo from "../geo.js";
 import { status } from "../hours.js";
 import { avatarHTML, branchSheet, statusHTML, toast } from "../ui.js";
-import { haptic, reduced } from "../motion.js";
+import { haptic, replay } from "../motion.js";
 import { onLeave, every } from "../lifecycle.js";
 import { refresh } from "../router.js";
 
-const [, , VW, VH] = MARK_VIEWBOX.split(" ").map(Number);
-const per = (CHECKIN.holdMinutes / BULBS.length) * 60000;           // ms each bulb stands for
-const litFor = (mine) => (mine ? Math.max(1, Math.min(BULBS.length, Math.ceil((mine.until - Date.now()) / per))) : 0);
+const minsLeft = (until, now = Date.now()) => Math.max(0, Math.ceil((until - now) / 60000));
+const clock = new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Tehran", hour: "2-digit", minute: "2-digit", hourCycle: "h23" });
+const hm = (t) => clock.format(new Date(t));
+const herePhrase = (n, en) => (n === 0 ? `Nobody's in at ${en} yet` : n === 1 ? "1 person is here" : `${n} people are here`);
 
-const marqueeSVG = () => `
-  <svg viewBox="${MARK_VIEWBOX}" aria-hidden="true" focusable="false">
-    <defs>
-      <radialGradient id="bulbGlow" cx="42%" cy="38%" r="62%">
-        <stop offset="0" stop-color="#FFFCEF"/><stop offset=".42" stop-color="#FFD98A"/><stop offset="1" stop-color="#FF8A2A"/>
-      </radialGradient>
-      <filter id="glow" x="-200%" y="-200%" width="500%" height="500%" color-interpolation-filters="sRGB">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="${(BULB_R * .9).toFixed(1)}" result="b"/>
-        <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 .72 0 0 0  0 0 .3 0 0  0 0 0 1.4 0" result="warm"/>
-        <feMerge><feMergeNode in="warm"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
-    </defs>
-    <g class="l-wrap">
-      <path class="l-body" fill-rule="evenodd" d="${MARK_PATH}"/>
-      ${BULBS.map(([x, y], i) => `<circle class="bulb" style="--i:${i}" cx="${x}" cy="${y}" r="${BULB_R}"/>`).join("")}
-    </g>
-  </svg>`;
-
-function roomHTML(b, mine) {
-  const room = presence.list(b.id);
-  const me = presence.myId();
-  const st = status(b.hours);
-  if (!room.length) {
-    return `<div class="room-empty">${st.open || st.unknown ? `No one has checked in at Lamiz ${esc(b.en)} in the last hour. Be the first.` : `Lamiz ${esc(b.en)} is closed — ${esc(st.detail)}.`}</div>`;
-  }
-  return room.slice().reverse().map((p) => {
-    const isMe = p.id === me;
-    const name = isMe ? "You" : p.name || "Someone";
-    const face = isMe ? avatarHTML({ name: shownName() || "You", photo: photo(), hue: myHue(), size: 40, me: true })
-      : avatarHTML({ name: p.name || "?", hue: p.hue, photo: p.photo, size: 40 });
-    const w = presence.waved(p.id);
-    return `
-      <div class="person${p._new ? " new" : ""}" data-person="${p.id}">
-        ${face}
-        <div class="person-t"><b>${esc(name)}</b><span>${isMe ? `Checked in ${ago(p.at)}` : `Arrived ${ago(p.at)}`}</span></div>
-        ${isMe ? "" : `<button class="wave ${w ? "done" : ""}" type="button" data-wave="${p.id}" data-name="${esc(p.name || "them")}" ${w ? "disabled" : ""}>${icon("hand")}<span>${w ? "Waved" : "Wave"}</span></button>`}
-      </div>`;
-  }).join("");
-}
+const personHTML = (p, me, fresh) => {
+  const isMe = p.id === me;
+  const name = isMe ? "You" : p.name || "Someone";
+  const w = presence.waved(p.id);
+  return `
+    <li class="person${isMe ? " person--me" : ""}${fresh ? " arrive" : ""}" data-person="${esc(p.id)}">
+      ${isMe ? avatarHTML({ name: shownName() || "You", photo: photo(), hue: myHue(), size: 42, me: true })
+             : avatarHTML({ name: p.name || "?", hue: p.hue, photo: p.photo, size: 42 })}
+      <span class="person-t">
+        <span class="person-n">${esc(name)}${isMe ? `<span class="you">You</span>` : ""}</span>
+        <span class="person-d">${isMe ? `Checked in ${ago(p.at)}` : `Arrived ${ago(p.at)}`}</span>
+      </span>
+      ${isMe ? "" : `<button class="wave${w ? " done" : ""}" type="button" data-wave="${esc(p.id)}" data-name="${esc(p.name || "them")}"${w ? " disabled" : ""}>${icon("hand")}<span>${w ? "Waved" : "Wave"}</span></button>`}
+    </li>`;
+};
 
 export default function checkin() {
   const mine = presence.me();
   // if you are checked in somewhere, that is the branch this screen is about
   const b = (mine && branchById(mine.branch)) || myBranch();
-  const st = status(b.hours);
-  // A closed branch still takes a check-in — people sit down before the shutters go up
-  // and the hour runs out on its own. The room stays empty of demo faces while it is
-  // closed, so the app never invents a crowd at three in the morning.
   const at = geo.atBranch(geo.known(), CHECKIN.nearMeters);
-  const n = presence.list(b.id).length;
 
   const html = `
     <div class="wrap">
-      <div class="lt-wrap"><h1 class="lt">Check in</h1><p class="lt-sub">One tap. It lasts an hour, then it lets go.</p></div>
+      <div class="lt-wrap">
+        <h1 class="lt">Check in</h1>
+        <p class="lt-sub">One tap when you sit down. It lasts an hour, then lets go by itself.</p>
+      </div>
 
-      <button class="ci-branch" type="button" id="ci-branch" ${mine ? "disabled" : ""} aria-label="Branch: Lamiz ${esc(b.en)}${mine ? "" : ", change"}">
+      <button class="ci-branch" type="button" id="ci-branch"${mine ? " disabled" : ""} aria-label="Branch: Lamiz ${esc(b.en)}${mine ? "" : ", change"}">
         <span class="ci-branch-img"><img class="fade" src="${b.cover}" alt="" width="52" height="52" decoding="async"></span>
         <span class="ci-branch-t"><b>Lamiz ${esc(b.en)}</b><span>${statusHTML(b)}</span></span>
         ${mine ? "" : `<span class="ci-branch-c">Change</span>`}
@@ -85,81 +58,94 @@ export default function checkin() {
       ${!mine && at && at.id !== b.id ? `<div class="near">${icon("locate")}<span>Looks like you're at Lamiz ${esc(at.en)}.</span><button type="button" id="use-near">Use it</button></div>` : ""}
       ${!mine && !geo.known() && geo.supported() ? `<div style="margin:6px var(--g) 0"><button class="linkbtn" type="button" id="find-me">${icon("locate")}<span>Find the Lamiz I'm in</span></button></div>` : ""}
 
-      <button class="marquee" id="marquee" type="button" data-in="${mine ? 1 : 0}" style="--ar:${(VW / VH).toFixed(4)}"
-        aria-label="${mine ? `Checked in at Lamiz ${esc(b.en)}` : `Check in at Lamiz ${esc(b.en)}`}">
-        ${marqueeSVG()}
-      </button>
-
-      <div class="ci-state" id="ci-state"></div>
-      <div class="ci-actions" id="ci-actions"></div>
+      <section class="ci-stage" id="stage" data-in="${mine ? 1 : 0}">
+        <button class="disc" id="disc" type="button">
+          <span class="disc-waves" aria-hidden="true"><i></i><i></i><i></i></span>
+          <svg class="disc-ring" viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="disc-track" cx="100" cy="100" r="94"/>
+            <circle class="disc-fill" id="disc-fill" cx="100" cy="100" r="94" pathLength="1000"/>
+          </svg>
+          <span class="disc-face"><span class="disc-ico" id="disc-ico"></span><span class="disc-l" id="disc-l"></span></span>
+        </button>
+        <h2 class="ci-title" id="ci-title"></h2>
+        <p class="ci-sub" id="ci-sub"></p>
+        <div class="ci-acts" id="ci-acts" hidden>
+          <button class="btn btn--quiet" type="button" id="extend">${icon("clock")}Another hour</button>
+          <button class="btn btn--line" type="button" id="out">Check out</button>
+        </div>
+      </section>
 
       <section class="room">
-        <div class="room-h"><h2 class="room-t">Here now</h2><span class="room-live" id="room-live"><i></i><span>${n} ${n === 1 ? "person" : "people"}</span></span></div>
-        <div class="room-list" id="room">${roomHTML(b, mine)}</div>
-        <p class="note" style="margin-left:4px;margin-right:4px">Others see you as <b>${esc(shownName() || "your first name, once you add it")}</b>. Change that in <a href="#/profile">Profile</a>. Rooms show check-ins from the last hour only.</p>
+        <div class="room-h"><h2 class="room-t">Here now</h2><span class="room-live" id="room-live"><i></i><span></span></span></div>
+        <ul class="room-list" id="room"></ul>
+        <p class="note" style="margin-left:4px;margin-right:4px" id="ci-foot"></p>
       </section>
     </div>`;
 
   function mount(screen) {
-    const mq = screen.querySelector("#marquee");
-    const bulbs = [...mq.querySelectorAll(".bulb")];
-    const stateEl = screen.querySelector("#ci-state");
-    const acts = screen.querySelector("#ci-actions");
-    const roomEl = screen.querySelector("#room");
-    const live = screen.querySelector("#room-live span");
-    let lighting = false;
+    const $ = (s) => screen.querySelector(s);
+    const stage = $("#stage"), disc = $("#disc"), fill = $("#disc-fill");
+    const ico = $("#disc-ico"), lab = $("#disc-l"), title = $("#ci-title"), sub = $("#ci-sub");
+    const acts = $("#ci-acts"), roomEl = $("#room"), live = $("#room-live span"), foot = $("#ci-foot");
+    let seen = null, wasIn = null;
 
-    const setLit = (k) => bulbs.forEach((el, i) => el.classList.toggle("lit", i < k));
-
-    function paintState() {
+    function paint() {
+      const now = Date.now();
       const me = presence.me();
-      if (me && me.branch === b.id) {
-        const left = Math.max(0, Math.ceil((me.until - Date.now()) / 60000));
-        const v = presence.visitsThisMonth();
-        stateEl.innerHTML = `<b>You're in at ${esc(b.en)}</b><span>${left} min left${v > 1 ? `. Your ${ordinal(v)} visit this month` : ""}.</span>`;
-        acts.innerHTML = `<button class="btn btn--quiet" type="button" id="extend">${icon("clock")}Another hour</button><button class="btn btn--line" type="button" id="out">Check out</button>`;
-        acts.querySelector("#extend").addEventListener("click", () => { haptic(8); presence.extend(); toast("Another hour, on the house", { ico: "clock" }); });
-        acts.querySelector("#out").addEventListener("click", () => { haptic(8); presence.checkOut(); toast(`Checked out of ${b.en}`); refresh(); });
-        if (!lighting) setLit(litFor(me));
+      const inHere = !!(me && me.branch === b.id);
+      const people = presence.list(b.id, now);
+      const others = people.filter((p) => p.id !== presence.myId()).length;
+
+      if (inHere !== wasIn) { ico.innerHTML = icon(inHere ? "check" : "checkin"); wasIn = inHere; }
+      stage.dataset.in = inHere ? "1" : "0";
+      acts.hidden = !inHere;
+
+      if (inHere) {
+        const left = minsLeft(me.until, now);
+        const visits = presence.visitsThisMonth();
+        lab.textContent = `${left} min left`;
+        fill.style.strokeDashoffset = String(1000 - Math.round(clamp(left / CHECKIN.holdMinutes, 0, 1) * 1000));
+        title.textContent = `You're in at ${b.en}`;
+        sub.textContent = `Until ${hm(me.until)}. ${others ? `${others} other${others === 1 ? "" : "s"} here` : "The first one here"}${visits > 1 ? `, your ${ordinal(visits)} visit this month` : ""}.`;
+        disc.setAttribute("aria-label", `Checked in at Lamiz ${b.en}, ${left} minutes left`);
       } else {
-        const people = presence.list(b.id).length;
-        const now = status(b.hours);
-        const line = people ? `${people} ${people === 1 ? "person is" : "people are"} at Lamiz ${esc(b.en)} right now.`
-          : now.open || now.unknown ? `Nobody's in at ${esc(b.en)} yet.`
-          : `Lamiz ${esc(b.en)} is closed — ${esc(now.detail)}.`;
-        stateEl.innerHTML = `<b>Tap the L to check in</b><span>${line}</span>`;
-        acts.innerHTML = "";
-        setLit(0);
+        const st = status(b.hours);
+        lab.textContent = "Tap to check in";
+        fill.style.strokeDashoffset = "1000";
+        title.textContent = herePhrase(others, b.en);
+        sub.textContent = others ? "Check in to join them."
+          : st.open || st.unknown ? "Be the first — tap when you sit down."
+          : `Lamiz ${b.en} is closed, ${st.detail}.`;
+        disc.setAttribute("aria-label", `Check in at Lamiz ${b.en}`);
       }
-    }
-    function paintRoom() {
-      const rows = presence.list(b.id);
-      live.textContent = `${rows.length} ${rows.length === 1 ? "person" : "people"}`;
-      roomEl.innerHTML = roomHTML(b, presence.me());
+
+      live.textContent = `${people.length} ${people.length === 1 ? "person" : "people"}`;
+      roomEl.innerHTML = people.length
+        ? people.slice().reverse().map((p) => personHTML(p, presence.myId(), !!seen && !seen.has(p.id))).join("")
+        : `<li class="room-empty">When people check in at ${esc(b.en)}, they show up here.</li>`;
+      seen = new Set(people.map((p) => p.id));
+      foot.innerHTML = `${profile().appear === "hidden" ? "You're hidden from the room." : `The room sees you as <b>${esc(shownName() || "your first name, once you add it")}</b>.`} `
+        + `<a href="#/profile">Change it in Profile</a>. Rooms show the last hour only, and the other guests are a demo room until Lamiz's own is connected.`;
     }
 
-    mq.addEventListener("click", () => {
-      if (presence.me() || lighting) return;
-      lighting = true;
+    disc.addEventListener("click", () => {
+      if (presence.me()) { replay(stage, "nudge"); haptic(6); return; }
       const p = profile();
       presence.checkIn({ branchId: b.id, name: shownName(p), hue: myHue(), photo: p.appear === "hidden" ? "" : photo() });
-      haptic([14, 40, 20]);
-      mq.dataset.in = "1";
-      mq.setAttribute("aria-disabled", "true");
-      mq.setAttribute("aria-label", `Checked in at Lamiz ${b.en}`);
-      screen.querySelector("#ci-branch").disabled = true;
-      screen.querySelector("#ci-branch .ci-branch-c")?.remove();
-      // the bulbs come on in order, as a marquee sign's do
-      const step = reduced() ? 0 : 42;
-      bulbs.forEach((el, i) => setTimeout(() => el.classList.add("lit"), i * step));
-      setTimeout(() => { lighting = false; paintState(); }, bulbs.length * step + 60);
-      paintState();
-      paintRoom();
-      const mine = roomEl.querySelector(`[data-person="${presence.myId()}"]`);
-      mine?.classList.add("new");
+      haptic([14, 50, 22]);
+      replay(stage, "burst");
+      $("#ci-branch").disabled = true;
+      $("#ci-branch .ci-branch-c")?.remove();
       toast(`You're in at Lamiz ${b.en}`, { ico: "checkin" });
+      paint();
     });
-
+    acts.querySelector("#extend").addEventListener("click", () => {
+      const m = presence.extend();
+      if (m) { haptic(8); toast(`Held until ${hm(m.until)}`, { ico: "clock" }); }
+    });
+    acts.querySelector("#out").addEventListener("click", () => {
+      presence.checkOut(); haptic(10); toast(`Checked out of ${b.en}`); refresh();
+    });
     roomEl.addEventListener("click", (e) => {
       const w = e.target.closest("[data-wave]");
       if (!w) return;
@@ -167,13 +153,12 @@ export default function checkin() {
       presence.wave(w.dataset.wave);
       toast(`You waved at ${w.dataset.name}`, { ico: "hand" });
     });
-
-    screen.querySelector("#ci-branch").addEventListener("click", () => {
+    $("#ci-branch").addEventListener("click", () => {
       if (presence.me()) return;
       branchSheet({ title: "Where are you?", sub: "People checked in at each branch right now.", withCounts: true, onPick: () => refresh() });
     });
-    screen.querySelector("#use-near")?.addEventListener("click", () => { setMyBranch(at.id); refresh(); });
-    screen.querySelector("#find-me")?.addEventListener("click", async (e) => {
+    $("#use-near")?.addEventListener("click", () => { setMyBranch(at.id); refresh(); });
+    $("#find-me")?.addEventListener("click", async (e) => {
       const btn = e.currentTarget;
       btn.querySelector("span").textContent = "Finding you…";
       try {
@@ -186,10 +171,10 @@ export default function checkin() {
       } catch (err) { btn.querySelector("span").textContent = err.message; }
     });
 
-    paintState();
-    onLeave(presence.subscribe(() => { paintRoom(); if (!lighting) paintState(); }));
-    onLeave(subscribe(() => paintRoom()));
-    every(20000, () => { paintRoom(); if (!lighting) paintState(); });
+    paint();
+    onLeave(presence.subscribe(paint));
+    onLeave(subscribe(paint));
+    every(20000, paint);
   }
 
   return { html, mount, cls: "pad-top" };

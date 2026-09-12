@@ -308,15 +308,20 @@ def main():
 
         # ------------------------------------------------------------ check-in
         goto(page, "#/checkin", 900)
-        check("check-in: the marquee L, with its bulbs", page.locator("#marquee .bulb").count() == 20, str(page.locator("#marquee .bulb").count()))
-        check("check-in: the L is their traced letter", page.locator("#marquee .l-body").count() == 1)
-        lit0 = page.locator("#marquee .bulb.lit").count()
-        page.click("#marquee")
-        page.wait_for_timeout(1500)
-        check("check-in: one tap checks you in", page.evaluate("document.querySelector('#marquee').dataset.in") == "1")
-        check("check-in: the bulbs come on", page.locator("#marquee .bulb.lit").count() > lit0, str(page.locator("#marquee .bulb.lit").count()))
-        check("check-in: the screen says you are in", "you're in" in page.inner_text(".ci-state").lower())
-        check("check-in: you are in the room", "You" in page.inner_text("#room"))
+        check("check-in: the disc, with its hour ring", page.locator("#disc .disc-ring .disc-fill").count() == 1)
+        check("check-in: the marquee is gone", page.locator("#marquee").count() == 0)
+        check("check-in: it says what to do", "tap to check in" in page.inner_text("#disc-l").lower())
+        page.click("#disc")
+        page.wait_for_timeout(1400)
+        check("check-in: one tap checks you in", page.evaluate("document.querySelector('#stage').dataset.in") == "1")
+        check("check-in: the ring fills with the hour left",
+              page.evaluate("+document.querySelector('#disc-fill').style.strokeDashoffset") < 60,
+              page.evaluate("document.querySelector('#disc-fill').style.strokeDashoffset"))
+        check("check-in: the disc counts the minutes down", re.search(r"\d+ min left", page.inner_text("#disc-l")) is not None, page.inner_text("#disc-l"))
+        check("check-in: the screen says you are in", "you're in" in page.inner_text("#ci-title").lower())
+        check("check-in: you are in the room, marked as you", "You" in page.inner_text("#room") and page.locator(".person--me").count() == 1)
+        check("check-in: leaving early and another hour are both offered",
+              page.locator("#extend").is_visible() and page.locator("#out").is_visible())
         check("check-in: the bar chip follows you in", page.evaluate("document.querySelector('#ci-chip').dataset.in") == "1" or page.locator("#ci-chip").is_hidden())
         others = page.locator(".person [data-wave]")
         if others.count():
@@ -324,9 +329,12 @@ def main():
             page.wait_for_timeout(400)
             check("check-in: you can wave at someone", page.locator(".wave.done").count() >= 1)
         shot(page, "checkin")
+        page.click("#extend")
+        page.wait_for_timeout(500)
+        check("check-in: another hour holds it", page.evaluate("document.querySelector('#stage').dataset.in") == "1")
         page.click("#out")
-        page.wait_for_timeout(700)
-        check("check-in: checking out lets go", page.evaluate("document.querySelector('#marquee').dataset.in") == "0")
+        page.wait_for_timeout(800)
+        check("check-in: checking out lets go", page.evaluate("document.querySelector('#stage').dataset.in") == "0")
 
         # ------------------------------------------------------------ branches
         goto(page, "#/branches", 900)
@@ -434,6 +442,57 @@ def main():
                 if (!on || !lens) return false;
                 const a = on.getBoundingClientRect(), b = lens.getBoundingClientRect();
                 return Math.abs((a.left + a.width / 2) - (b.left + b.width / 2)) < 14; })()"""))
+
+        # ------------------------------------------------- the bar folds away
+        goto(page, "#/menu", 800)
+        open_w = page.evaluate("document.getElementById('tabs').getBoundingClientRect().width")
+        page.mouse.wheel(0, 900)
+        page.wait_for_timeout(700)
+        folded = page.evaluate("document.getElementById('dockbar').classList.contains('min')")
+        min_w = page.evaluate("document.getElementById('tabs').getBoundingClientRect().width")
+        check("scrolling down folds the bar to the open tab", folded, "still open")
+        check("the folded bar is the width of one tab, not a squeezed row",
+              folded and min_w < open_w * .45 and min_w > 60, f"{open_w:.0f} → {min_w:.0f}")
+        check("the tabs are clipped, not squashed",
+              page.evaluate("(() => { const t = document.querySelector('.tab'); return t.getBoundingClientRect().width > 55; })()"),
+              page.evaluate("document.querySelector('.tab').getBoundingClientRect().width"))
+        check("the open tab stays visible while folded",
+              page.evaluate("""(() => { const on = document.querySelector('.tab[aria-current="page"]'), bar = document.getElementById('tabs');
+                const a = on.getBoundingClientRect(), b = bar.getBoundingClientRect();
+                return getComputedStyle(on).opacity === '1' && a.left >= b.left - 2 && a.right <= b.right + 2; })()"""))
+        check("the bag stays reachable while folded", page.locator("#bagbtn").is_visible())
+        page.mouse.wheel(0, -260)
+        page.wait_for_timeout(700)
+        check("scrolling back up opens it again", not page.evaluate("document.getElementById('dockbar').classList.contains('min')"))
+        page.mouse.wheel(0, 900)
+        page.wait_for_timeout(700)
+        if page.evaluate("document.getElementById('dockbar').classList.contains('min')"):
+            page.locator('.tab[aria-current="page"]').click()
+            page.wait_for_timeout(500)
+            check("a tap on the folded bar opens it instead of navigating",
+                  not page.evaluate("document.getElementById('dockbar').classList.contains('min')") and page.evaluate("location.hash").startswith("#/menu"))
+        goto(page, "#/", 700)
+        check("navigating opens a folded bar", not page.evaluate("document.getElementById('dockbar').classList.contains('min')"))
+        # a short screen must never fold — it would read as a glitch
+        goto(page, "#/profile/edit", 800)
+        page.mouse.wheel(0, 600)
+        page.wait_for_timeout(600)
+        check("a screen with nothing to scroll never folds",
+              page.evaluate("(() => { const tall = document.documentElement.scrollHeight - innerHeight >= 700; return tall || !document.getElementById('dockbar').classList.contains('min'); })()"))
+
+        # the glass must sample the page, not an ancestor's transform
+        goto(page, "#/menu", 700)
+        check("nothing above the glass has a transform, filter or opacity that would kill it",
+              page.evaluate("""(() => {
+                const bad = [];
+                for (const el of document.querySelectorAll('.tabs, .bagbtn, .acc, .glassbtn, .toast')) {
+                  for (let n = el.parentElement; n && n !== document.documentElement; n = n.parentElement) {
+                    const s = getComputedStyle(n);
+                    if (s.transform !== 'none' || s.filter !== 'none' || +s.opacity < 1 || s.backdropFilter !== 'none' && n !== el) { bad.push(n.className || n.tagName); break; }
+                  }
+                }
+                return bad.length === 0 || bad.join();
+              })()""") is True)
 
         # --------------------------------------------------------- the photos
         # "random images": the four bakery photographs come up in a different order

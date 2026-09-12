@@ -93,9 +93,10 @@ def main():
             page.locator("#place").click(); page.wait_for_timeout(1100); shot(page, group, "order", full=True)
 
             page.evaluate("location.hash = '#/checkin'"); page.wait_for_timeout(900); shot(page, group, "checkin")
-            page.locator("#marquee").click(); page.wait_for_timeout(1600); shot(page, group, "checkin-in", full=True)
+            page.locator("#disc").click(); page.wait_for_timeout(1600); shot(page, group, "checkin-in", full=True)
 
             page.evaluate("location.hash = '#/branches'"); page.wait_for_timeout(900); shot(page, group, "branches")
+            page.mouse.wheel(0, 1000); page.wait_for_timeout(900); shot(page, group, "tabs-folded")
             page.evaluate("location.hash = '#/branch/tajrish-monin'"); page.wait_for_timeout(1100); shot(page, group, "branch", full=True)
             page.evaluate("location.hash = '#/profile'"); page.wait_for_timeout(900); shot(page, group, "profile", full=True)
             page.locator("#show-card").click(); page.wait_for_timeout(800); shot(page, group, "member-card")
